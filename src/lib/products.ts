@@ -12,6 +12,7 @@ export interface Product {
   createdAt: string;
   condition?: 'NEW' | 'USED';
   views?: number;
+  category?: string;
 }
 
 const dataFilePath = path.join(process.cwd(), 'src', 'data', 'products.json');
@@ -48,6 +49,7 @@ export function addProduct(data: Omit<Product, 'id' | 'createdAt'>): Product {
     createdAt: new Date().toISOString(),
     condition: data.condition || 'NEW',
     views: 0,
+    category: data.category || 'Diğer',
   };
   products.push(newProduct);
   saveProducts(products);

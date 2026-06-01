@@ -49,24 +49,12 @@ export function MobileMenu() {
 
         <div className="flex-1 px-6 py-8 flex flex-col gap-6 overflow-y-auto">
           <nav className="flex flex-col gap-6 text-2xl font-bold tracking-tight">
-            <Link href="/" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-100">
-              Ana Sayfa
-            </Link>
-            <Link href="/urunler" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-200">
-              Tüm Ürünler
-            </Link>
-            <Link href="/urunler/populer" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-300">
-              Popüler Ürünler
-            </Link>
-            <Link href="/urunler/yeni" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-400">
-              Yeni Eklenenler
-            </Link>
-            <Link href="/urunler/ikinci-el" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-500">
-              İkinci El Cihazlar
-            </Link>
-            <Link href="/admin" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '600ms' }}>
-              Yönetici Paneli
-            </Link>
+            <Link href="/urunler?kategori=Mac" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-100">Mac</Link>
+            <Link href="/urunler?kategori=iPad" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-200">iPad</Link>
+            <Link href="/urunler?kategori=iPhone" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-300">iPhone</Link>
+            <Link href="/urunler?kategori=Watch" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-400">Watch</Link>
+            <Link href="/urunler?kategori=AirPods" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-500">AirPods</Link>
+            <Link href="/urunler?kategori=Aksesuarlar" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '600ms' }}>Aksesuarlar</Link>
           </nav>
 
           <div className="mt-auto pt-8 border-t border-[var(--border)] animate-slide-down" style={{ animationDelay: '700ms' }}>

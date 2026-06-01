@@ -31,11 +31,12 @@ export default function RootLayout({
                 <span className="sm:hidden">REDTEK </span>
               </a>
               <nav className="hidden md:flex space-x-6 lg:space-x-8">
-                <a href="/" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Ana Sayfa</a>
-                <a href="/urunler" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Tüm Ürünler</a>
-                <a href="/urunler/populer" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Popüler</a>
-                <a href="/urunler/yeni" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Yeni</a>
-                <a href="/urunler/ikinci-el" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">İkinci El</a>
+                <a href="/urunler?kategori=Mac" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Mac</a>
+                <a href="/urunler?kategori=iPad" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPad</a>
+                <a href="/urunler?kategori=iPhone" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPhone</a>
+                <a href="/urunler?kategori=Watch" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Watch</a>
+                <a href="/urunler?kategori=AirPods" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">AirPods</a>
+                <a href="/urunler?kategori=Aksesuarlar" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Aksesuarlar</a>
               </nav>
               <div className="hidden md:flex items-center space-x-4">
                 <ThemeToggle />
