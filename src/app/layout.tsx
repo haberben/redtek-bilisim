@@ -70,15 +70,94 @@ export default function RootLayout({
               </div>
               <div id="iletisim">
                 <h3 className="font-bold text-lg mb-4">İletişim</h3>
-                <ul className="space-y-2 text-sm text-[var(--muted-foreground)]">
-                  <li>📍 50. Yıl Mahallesi, C Caddesi, No:46 D:B, Sultangazi/İstanbul</li>
-                  <li>📱 +90 501 202 38 38</li>
-                  <li>📸 <a href="https://www.instagram.com/redtek.bilisim/" target="_blank" className="hover:text-[var(--foreground)]">@redtek.bilisim</a></li>
-                </ul>
+          <footer className="bg-[#f5f5f7] dark:bg-[#111111] border-t border-gray-300 dark:border-gray-800 text-[11px] sm:text-xs text-gray-500 dark:text-gray-400 py-6 mt-auto">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              {/* Fine Print */}
+              <div className="border-b border-gray-300 dark:border-gray-800 pb-4 mb-4">
+                <p className="mb-2">* Fiyatlara KDV dahildir. Taksit imkanları kredi kartınızın bankasına göre değişiklik gösterebilir. Kurumsal satışlarda farklı fiyatlandırmalar uygulanabilir.</p>
+                <p className="mb-2">1. Takas desteği, getirdiğiniz cihazın kondisyonuna, modeline ve yılına göre değişiklik gösterir. Redtek Bilişim, cihazı kabul etmeme veya değerleme fiyatını değiştirme hakkını saklı tutar.</p>
+                <p className="mb-2">2. İstanbul içi aynı gün teslimat hizmeti, stok durumuna ve siparişin verildiği saate bağlıdır. Teslimat ücreti mesafe bazlı hesaplanabilir.</p>
+                <p>Apple Intelligence, yakında uyumlu cihazlara beta olarak sunulacaktır. Özellikler ve desteklenen diller bölgeye göre farklılık gösterebilir.</p>
               </div>
-            </div>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-[var(--border)] text-center text-sm text-[var(--muted-foreground)]">
-              &copy; {new Date().getFullYear()} Redtek Bilişim. Tüm hakları saklıdır.
+
+              {/* Footer Links Columns */}
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 py-6">
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Alışveriş ve İnceleme</h3>
+                  <ul className="space-y-2">
+                    <li><a href="/urunler?kategori=Mac" className="hover:underline">Mac</a></li>
+                    <li><a href="/urunler?kategori=iPad" className="hover:underline">iPad</a></li>
+                    <li><a href="/urunler?kategori=iPhone" className="hover:underline">iPhone</a></li>
+                    <li><a href="/urunler?kategori=Watch" className="hover:underline">Watch</a></li>
+                    <li><a href="/urunler?kategori=AirPods" className="hover:underline">AirPods</a></li>
+                    <li><a href="/urunler?kategori=Aksesuarlar" className="hover:underline">Aksesuarlar</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Hesap</h3>
+                  <ul className="space-y-2">
+                    <li><a href="#" className="hover:underline">Redtek Bilişim Hesabınızı Yönetin</a></li>
+                    <li><a href="#" className="hover:underline">iCloud.com</a></li>
+                  </ul>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3 mt-6">Redtek Bilişim Değerleri</h3>
+                  <ul className="space-y-2">
+                    <li><a href="#" className="hover:underline">Erişilebilirlik</a></li>
+                    <li><a href="#" className="hover:underline">Çevre</a></li>
+                    <li><a href="#" className="hover:underline">Gizlilik</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Redtek Store</h3>
+                  <ul className="space-y-2">
+                    <li><a href="#" className="hover:underline">Mağaza Bulun</a></li>
+                    <li><a href="#" className="hover:underline">Randevu Alın</a></li>
+                    <li><a href="#" className="hover:underline">Takas Desteği</a></li>
+                    <li><a href="#" className="hover:underline">Finansman Seçenekleri</a></li>
+                    <li><a href="#" className="hover:underline">Sipariş Durumu</a></li>
+                    <li><a href="#" className="hover:underline">Alışveriş Yardımı</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Kurumsal</h3>
+                  <ul className="space-y-2">
+                    <li><a href="#" className="hover:underline">Kurumsal Satış</a></li>
+                    <li><a href="#" className="hover:underline">İşletmeler İçin Çözümler</a></li>
+                  </ul>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3 mt-6">Eğitim</h3>
+                  <ul className="space-y-2">
+                    <li><a href="#" className="hover:underline">Eğitim İçin Satın Alın</a></li>
+                    <li><a href="#" className="hover:underline">Öğrenci İndirimleri</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Redtek Bilişim Hakkında</h3>
+                  <ul className="space-y-2">
+                    <li><a href="#" className="hover:underline">Kariyer Fırsatları</a></li>
+                    <li><a href="#" className="hover:underline">Yatırımcılar</a></li>
+                    <li><a href="#" className="hover:underline">Etik ve Uyumluluk</a></li>
+                    <li><a href="#" className="hover:underline">İletişim</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Bottom Copyright */}
+              <div className="border-t border-gray-300 dark:border-gray-800 pt-4 mt-4 flex flex-col md:flex-row justify-between items-center gap-4">
+                <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6">
+                  <p>Telif Hakkı &copy; {new Date().getFullYear()} Redtek Bilişim Inc. Tüm hakları saklıdır.</p>
+                  <div className="flex gap-4">
+                    <a href="#" className="hover:underline">Gizlilik Politikası</a>
+                    <span className="hidden md:inline">|</span>
+                    <a href="#" className="hover:underline">Kullanım Şartları</a>
+                    <span className="hidden md:inline">|</span>
+                    <a href="#" className="hover:underline">Satış ve Para İadesi</a>
+                    <span className="hidden md:inline">|</span>
+                    <a href="#" className="hover:underline">Site Haritası</a>
+                  </div>
+                </div>
+                <div>
+                  <a href="#" className="hover:underline">Türkiye</a>
+                </div>
+              </div>
             </div>
           </footer>
         </div>

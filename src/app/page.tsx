@@ -124,6 +124,94 @@ export default function Home() {
         ))}
       </StoreCarousel>
 
+      {/* Why Redtek Bilisim */}
+      <StoreCarousel title={<>Neden Redtek Bilişim? <span className="text-[var(--muted-foreground)]">Bizden alışveriş yapmak için şimdi daha da fazla sebebiniz var.</span></>}>
+        <div className="snap-always flex-shrink-0 w-[240px] sm:w-[320px] bg-[var(--card)] rounded-3xl p-8 flex flex-col justify-between h-[240px] shadow-sm hover:shadow-lg transition-shadow">
+          <div className="text-4xl mb-4">💳</div>
+          <h3 className="text-xl font-bold text-[var(--foreground)]">Esnek ödeme seçenekleri ve taksit imkanları.</h3>
+        </div>
+        <div className="snap-always flex-shrink-0 w-[240px] sm:w-[320px] bg-[var(--card)] rounded-3xl p-8 flex flex-col justify-between h-[240px] shadow-sm hover:shadow-lg transition-shadow">
+          <div className="text-4xl mb-4">🔄</div>
+          <h3 className="text-xl font-bold text-[var(--foreground)]">Eski cihazınızı getirin, yenisini indirimle götürün.</h3>
+        </div>
+        <div className="snap-always flex-shrink-0 w-[240px] sm:w-[320px] bg-[var(--card)] rounded-3xl p-8 flex flex-col justify-between h-[240px] shadow-sm hover:shadow-lg transition-shadow">
+          <div className="text-4xl mb-4">🛵</div>
+          <h3 className="text-xl font-bold text-[var(--foreground)]">İstanbul içi aynı gün özel kurye ile teslimat.</h3>
+        </div>
+        <div className="snap-always flex-shrink-0 w-[240px] sm:w-[320px] bg-[var(--card)] rounded-3xl p-8 flex flex-col justify-between h-[240px] shadow-sm hover:shadow-lg transition-shadow">
+          <div className="text-4xl mb-4">🎁</div>
+          <h3 className="text-xl font-bold text-[var(--foreground)]">Her alışverişinizde sürpriz hediyeler.</h3>
+        </div>
+      </StoreCarousel>
+
+      {/* Sound (AirPods) */}
+      <StoreCarousel title={<>Sesli düşünün. <span className="text-[var(--muted-foreground)]">Zengin ve yüksek kaliteli ses için benzersiz seçimler.</span></>}>
+        {products.filter(p => p.category === 'AirPods').slice(0, 6).map((p, i) => (
+          <Link href={`/urunler/${p.id}`} key={p.id} className="snap-always flex-shrink-0 w-[240px] sm:w-[320px] bg-[var(--card)] rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow group p-8 flex flex-col items-center text-center">
+            <div className="relative h-48 w-full mb-6">
+              {p.images?.[0] ? (
+                <Image src={p.images[0]} alt={p.title} fill className="object-contain group-hover:scale-110 transition-transform duration-500" />
+              ) : (
+                <div className="text-gray-400">Görsel Yok</div>
+              )}
+            </div>
+            <h3 className="text-lg font-bold text-[var(--foreground)] mb-2 line-clamp-2">{p.title}</h3>
+            <p className="text-[var(--foreground)] font-medium mt-auto pt-4">{p.price?.toLocaleString('tr-TR')} ₺</p>
+          </Link>
+        ))}
+      </StoreCarousel>
+
+      {/* Experience Section */}
+      <StoreCarousel title={<>Redtek Bilişim deneyimi. <span className="text-[var(--muted-foreground)]">Aygıtlarınızla daha da fazlasını yapın.</span></>}>
+        <div className="snap-always flex-shrink-0 w-[300px] sm:w-[480px] bg-white rounded-3xl p-8 sm:p-10 flex flex-col h-[400px] relative overflow-hidden group border border-gray-200">
+          <div className="z-10 relative">
+            <span className="text-xs font-bold uppercase tracking-wide bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500 mb-2 block">Redtek Zeka</span>
+            <h3 className="text-2xl sm:text-3xl font-bold text-black max-w-[300px]">Yeni cihazınızı sizin için yapılandıralım. Hemen kullanmaya başlayın.</h3>
+          </div>
+          <div className="absolute bottom-0 right-0 w-64 h-64 sm:w-80 sm:h-80 opacity-20 group-hover:scale-105 transition-transform duration-500 bg-gradient-to-tr from-blue-500 to-purple-500 rounded-tl-full"></div>
+        </div>
+        <div className="snap-always flex-shrink-0 w-[300px] sm:w-[480px] bg-[#f5f5f7] rounded-3xl p-8 sm:p-10 flex flex-col h-[400px] relative overflow-hidden group">
+          <div className="z-10 relative">
+            <span className="text-xs font-bold uppercase tracking-wide text-gray-500 mb-2 block">Ekosistem</span>
+            <h3 className="text-2xl sm:text-3xl font-bold text-black max-w-[280px]">Tek başlarına güçlü. Birlikte süper güçlü.</h3>
+          </div>
+          <div className="absolute bottom-4 right-4 w-48 h-48 sm:w-64 sm:h-64 opacity-50 group-hover:scale-110 transition-transform duration-500 flex items-end justify-end">
+            <div className="text-8xl">💻📱⌚</div>
+          </div>
+        </div>
+        <div className="snap-always flex-shrink-0 w-[300px] sm:w-[480px] bg-white rounded-3xl p-8 sm:p-10 flex flex-col h-[400px] relative overflow-hidden group border border-gray-200">
+          <div className="z-10 relative">
+            <span className="text-xs font-bold uppercase tracking-wide text-red-500 mb-2 block">Hediye Kartı</span>
+            <h3 className="text-2xl sm:text-3xl font-bold text-black max-w-[280px]">Hediye alın. Veya hediye edin.</h3>
+          </div>
+          <div className="absolute bottom-4 right-4 w-48 h-48 sm:w-64 sm:h-64 opacity-50 group-hover:scale-110 transition-transform duration-500 flex items-end justify-end">
+            <div className="text-8xl">🎁</div>
+          </div>
+        </div>
+      </StoreCarousel>
+
+      {/* Offers Section */}
+      <StoreCarousel title={<>Tasarruf fırsatları ve teklifler. <span className="text-[var(--muted-foreground)]">Kampanyalar, özel indirimler ve daha fazlası.</span></>}>
+        <div className="snap-always flex-shrink-0 w-[300px] sm:w-[480px] bg-[#1d1d1f] rounded-3xl p-8 sm:p-10 flex flex-col h-[480px] relative overflow-hidden group">
+          <div className="z-10 relative">
+            <span className="text-xs font-bold uppercase tracking-wide text-gray-400 mb-2 block">Öğrenci İndirimi</span>
+            <h3 className="text-3xl font-bold text-white max-w-[280px]">Eğitime özel fiyatlarla yeni bir Mac veya iPad alın, tasarruf edin.</h3>
+          </div>
+          <div className="absolute bottom-4 right-4 w-48 h-48 opacity-50 group-hover:scale-110 transition-transform duration-500 flex items-end justify-end">
+            <div className="text-8xl">🎓</div>
+          </div>
+        </div>
+        <div className="snap-always flex-shrink-0 w-[300px] sm:w-[480px] bg-black rounded-3xl p-8 sm:p-10 flex flex-col h-[480px] relative overflow-hidden group border border-gray-800">
+          <div className="z-10 relative">
+            <span className="text-xs font-bold uppercase tracking-wide text-gray-400 mb-2 block">Kurumsal Satış</span>
+            <h3 className="text-3xl font-bold text-white max-w-[280px]">Tüm çalışma yöntemleriniz için kurumsal çözümler.</h3>
+          </div>
+          <div className="absolute bottom-4 right-4 w-48 h-48 opacity-50 group-hover:scale-110 transition-transform duration-500 flex items-end justify-end">
+            <div className="text-8xl">💼</div>
+          </div>
+        </div>
+      </StoreCarousel>
+
     </div>
   );
 }
