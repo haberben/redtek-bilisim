@@ -10,6 +10,8 @@ export interface Product {
   images: string[];
   status: 'ACTIVE' | 'DRAFT' | 'SOLD';
   createdAt: string;
+  condition?: 'NEW' | 'USED';
+  views?: number;
 }
 
 const dataFilePath = path.join(process.cwd(), 'src', 'data', 'products.json');
@@ -44,6 +46,8 @@ export function addProduct(data: Omit<Product, 'id' | 'createdAt'>): Product {
     images: data.images || [],
     id: crypto.randomUUID(),
     createdAt: new Date().toISOString(),
+    condition: data.condition || 'NEW',
+    views: 0,
   };
   products.push(newProduct);
   saveProducts(products);

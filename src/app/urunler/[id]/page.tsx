@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getProductById } from "@/lib/products";
+import { getProductById, getProducts } from "@/lib/products";
 import { notFound } from "next/navigation";
 import { ProductGallery } from "@/components/product-gallery";
+import { ProductCard } from "@/components/product-card";
 
 export default async function ProductDetailsPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
@@ -11,6 +12,13 @@ export default async function ProductDetailsPage(props: { params: Promise<{ id: 
   if (!product) {
     notFound();
   }
+
+  // Get related products (active, excluding current)
+  const allProducts = getProducts();
+  const relatedProducts = allProducts
+    .filter(p => p.id !== product.id && p.status !== 'DRAFT')
+    .sort(() => 0.5 - Math.random()) // Randomize for demo
+    .slice(0, 3);
 
   // Pre-fill WhatsApp message
   const siteUrl = "https://redtekbilisim.com"; // Replace with actual domain later
@@ -76,6 +84,21 @@ export default async function ProductDetailsPage(props: { params: Promise<{ id: 
           </div>
         </div>
       </div>
+
+      {/* Related Products */}
+      {relatedProducts.length > 0 && (
+        <div className="mt-32 pt-16 border-t border-[var(--border)]">
+          <div className="text-center mb-12 animate-slide-down">
+            <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">İlginizi Çekebilir</h2>
+            <p className="text-lg text-[var(--muted-foreground)]">Sizin için seçtiğimiz diğer fırsatlara göz atın.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-0">
+            {relatedProducts.map((p, index) => (
+              <ProductCard key={p.id} product={p} index={index} />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

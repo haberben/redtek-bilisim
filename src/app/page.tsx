@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Product } from "@/lib/products";
+import { ProductCard } from "@/components/product-card";
 
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -56,28 +57,7 @@ export default function Home() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 sm:px-0">
             {products.map((product, index) => (
-              <Link href={`/urunler/${product.id}`} key={product.id} className={`apple-card group block animate-fade-in delay-${(index + 2) * 100} rounded-[2rem] sm:rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-500`}>
-                <div className="relative h-[400px] w-full bg-[#f5f5f7] dark:bg-[#111111] p-10 flex items-center justify-center">
-                  {product.images && product.images.length > 0 ? (
-                    <Image 
-                      src={product.images[0]} 
-                      alt={product.title} 
-                      fill 
-                      className="object-contain p-10 group-hover:scale-110 transition-transform duration-700 ease-out" 
-                    />
-                  ) : (
-                    <div className="text-gray-400">Görsel Yok</div>
-                  )}
-                </div>
-                <div className="p-8 bg-[var(--card)]">
-                  <h3 className="text-2xl font-bold mb-3 tracking-tight line-clamp-1">{product.title}</h3>
-                  <p className="text-[var(--muted-foreground)] text-base mb-6 line-clamp-2 leading-relaxed">{product.description}</p>
-                  <div className="flex justify-between items-center mt-6 pt-6 border-t border-[var(--border)]">
-                    <span className="font-semibold text-xl">{product.price?.toLocaleString('tr-TR')} ₺</span>
-                    <span className="text-[var(--accent)] text-base font-semibold group-hover:bg-[var(--accent)] group-hover:text-white px-4 py-2 rounded-full transition-all">İncele</span>
-                  </div>
-                </div>
-              </Link>
+              <ProductCard key={product.id} product={product} index={index} />
             ))}
           </div>
         )}

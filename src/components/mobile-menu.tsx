@@ -55,12 +55,21 @@ export function MobileMenu() {
             <Link href="/urunler" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-200">
               Tüm Ürünler
             </Link>
-            <Link href="/admin" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-300">
+            <Link href="/urunler/populer" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-300">
+              Popüler Ürünler
+            </Link>
+            <Link href="/urunler/yeni" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-400">
+              Yeni Eklenenler
+            </Link>
+            <Link href="/urunler/ikinci-el" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-500">
+              İkinci El Cihazlar
+            </Link>
+            <Link href="/admin" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '600ms' }}>
               Yönetici Paneli
             </Link>
           </nav>
 
-          <div className="mt-auto pt-8 border-t border-[var(--border)] animate-slide-down delay-400">
+          <div className="mt-auto pt-8 border-t border-[var(--border)] animate-slide-down" style={{ animationDelay: '700ms' }}>
             <div className="flex items-center justify-between mb-6">
               <span className="font-medium text-[var(--muted-foreground)]">Tema Değiştir</span>
               <ThemeToggle />

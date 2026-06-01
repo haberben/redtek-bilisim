@@ -25,14 +25,17 @@ export default function RootLayout({
           <div className="min-h-screen flex flex-col">
           <header className="sticky top-0 z-50 glass border-b border-[var(--border)]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-              <a href="/" className="font-bold text-xl tracking-tight flex items-center gap-2">
+              <a href="/" className="font-bold text-lg md:text-xl tracking-tight flex items-center gap-2 shrink-0 z-50">
                 <img src="/logo.png" alt="Redtek Bilişim Logo" className="w-8 h-8 rounded-lg object-cover" />
-                REDTEK BİLİŞİM 
+                <span className="hidden sm:inline">REDTEK BİLİŞİM </span>
+                <span className="sm:hidden">REDTEK </span>
               </a>
-              <nav className="hidden md:flex space-x-8">
+              <nav className="hidden md:flex space-x-6 lg:space-x-8">
                 <a href="/" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Ana Sayfa</a>
                 <a href="/urunler" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Tüm Ürünler</a>
-                <a href="/#iletisim" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">İletişim</a>
+                <a href="/urunler/populer" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Popüler</a>
+                <a href="/urunler/yeni" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Yeni</a>
+                <a href="/urunler/ikinci-el" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">İkinci El</a>
               </nav>
               <div className="hidden md:flex items-center space-x-4">
                 <ThemeToggle />
