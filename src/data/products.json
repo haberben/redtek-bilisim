@@ -1,32 +1,1221 @@
 [
   {
-    "id": "1",
-    "title": "iPhone 15 Pro Max 256GB - Doğal Titanyum",
-    "description": "Havacılık ve uzay sınıfı titanyum tasarım. A17 Pro çip ile inanılmaz oyun performansı. Daha da gelişmiş kamera sistemi ve yeni Eylem düğmesi.",
-    "features": ["Ekran: 6.7 inç Super Retina XDR", "Kamera: 48 MP Ana, 12 MP Ultra Geniş, 12 MP Telefoto", "İşlemci: A17 Pro", "Depolama: 256 GB"],
-    "price": 75000,
-    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-max-natural-titanium-select?wid=940&hei=1112&fmt=png-alpha",
+    "id": "366c1b7771d28b2ec4b63f7e56ce1654",
+    "title": "AirPods (2. Nesil) Gökyüzü Mavi",
+    "description": "AirPods (2. Nesil) Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Sohbet Farkındalığı. Şeffaf mod. Tere ve suya dayanıklı. Adaptif Ses. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 5800,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
     "status": "ACTIVE",
-    "createdAt": "2024-05-10T10:00:00.000Z"
+    "features": [
+      "Sohbet Farkındalığı",
+      "Şeffaf mod",
+      "Tere ve suya dayanıklı",
+      "Adaptif Ses"
+    ],
+    "createdAt": "2026-05-29T11:34:47.880Z"
   },
   {
-    "id": "2",
-    "title": "iPhone 14 128GB - Gece Yarısı",
-    "description": "Canlı 6.1 inç Super Retina XDR ekran. Gelişmiş kamera sistemiyle her ışıkta inanılmaz kareler. Trafik Kazası Algılama özelliği.",
-    "features": ["Ekran: 6.1 inç Super Retina XDR", "Kamera: 12 MP Ana, 12 MP Ultra Geniş", "İşlemci: A15 Bionic", "Depolama: 128 GB"],
-    "price": 45000,
-    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-midnight-select-202209?wid=940&hei=1112&fmt=png-alpha",
+    "id": "5c01e3b425cc3d60b9696dd08d147265",
+    "title": "Dyson V15 Detect Absolute Seramik Pembe/Rose Gold",
+    "description": "Dyson V15 Detect Absolute Seramik Pembe/Rose Gold model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 26200,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
     "status": "ACTIVE",
-    "createdAt": "2024-05-11T12:30:00.000Z"
+    "features": [
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-05-29T09:52:24.218Z"
   },
   {
-    "id": "3",
-    "title": "AirPods Pro (2. Nesil)",
-    "description": "2 kata kadar daha fazla Aktif Gürültü Engelleme. Şeffaf mod. Etrafınızdaki seslere uyum sağlayan Adaptif Ses özelliği.",
-    "features": ["Çip: H2 kulaklık çipi", "Bağlantı: Bluetooth 5.3", "Pil: Tek şarjla 6 saate kadar dinleme süresi"],
-    "price": 8500,
-    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985",
+    "id": "0bec4fc4372cda4900e1ea0a5faa18e1",
+    "title": "AirPods Max Gümüş",
+    "description": "AirPods Max Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. Sohbet Farkındalığı. MagSafe Şarj Kutusu. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 24800,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Şeffaf mod",
+      "Sohbet Farkındalığı",
+      "MagSafe Şarj Kutusu"
+    ],
+    "createdAt": "2026-05-28T21:22:04.447Z"
+  },
+  {
+    "id": "a87fefc626f954d3008571b91bd66cb5",
+    "title": "Dyson V15 Detect Absolute Nikel/Gümüş",
+    "description": "Dyson V15 Detect Absolute Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dolaşmayı önleyen Motorbar temizleme başlığı. HEPA filtrasyon sistemi. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 27900,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
     "status": "ACTIVE",
-    "createdAt": "2024-05-12T15:20:00.000Z"
+    "features": [
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "HEPA filtrasyon sistemi"
+    ],
+    "createdAt": "2026-05-28T19:26:39.282Z"
+  },
+  {
+    "id": "847f584e1239e13d37d079ba91008d97",
+    "title": "MacBook Pro 16 inç M3 Max 512GB - Yıldız Işığı",
+    "description": "MacBook Pro 16 inç M3 Max 512GB - Yıldız Işığı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Liquid Retina XDR ekran. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 119700,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Liquid Retina XDR ekran"
+    ],
+    "createdAt": "2026-05-27T11:39:05.772Z"
+  },
+  {
+    "id": "7dbb488ce796e3004bb03c105aca8239",
+    "title": "iPad 10. Nesil 256GB - Gece Yarısı",
+    "description": "iPad 10. Nesil 256GB - Gece Yarısı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Magic Keyboard desteği. Tüm gün süren pil ömrü. M serisi Apple Silicon çip. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 18000,
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Magic Keyboard desteği",
+      "Tüm gün süren pil ömrü",
+      "M serisi Apple Silicon çip"
+    ],
+    "createdAt": "2026-05-26T19:01:47.062Z"
+  },
+  {
+    "id": "904c3dfb204e314684112f82736f9049",
+    "title": "Dyson Gen5detect Altın",
+    "description": "Dyson Gen5detect Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 35600,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-05-26T09:46:02.119Z"
+  },
+  {
+    "id": "75b9204c2830109ad63dc610e0617a0b",
+    "title": "iPhone 14 Pro Max 1TB - Kırmızı",
+    "description": "iPhone 14 Pro Max 1TB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Suya ve toza dayanıklı. Tüm gün süren pil ömrü. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 34300,
+    "imageUrl": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Suya ve toza dayanıklı",
+      "Tüm gün süren pil ömrü"
+    ],
+    "createdAt": "2026-05-25T06:40:05.459Z"
+  },
+  {
+    "id": "5d9b9fdb34602d568a3bd64454ab102d",
+    "title": "Dyson V8 Absolute Prusya Mavisi/Bakır",
+    "description": "Dyson V8 Absolute Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Piezo sensörü partikülleri sayar. HEPA filtrasyon sistemi. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 13700,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Piezo sensörü partikülleri sayar",
+      "HEPA filtrasyon sistemi",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-05-23T07:42:13.615Z"
+  },
+  {
+    "id": "42c8de0f85419f99b0ff733d61ff0934",
+    "title": "iPhone 15 128GB - Kırmızı",
+    "description": "iPhone 15 128GB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dynamic Island. ProMotion teknolojili Super Retina XDR ekran. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 47300,
+    "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dynamic Island",
+      "ProMotion teknolojili Super Retina XDR ekran"
+    ],
+    "createdAt": "2026-05-22T14:27:01.605Z"
+  },
+  {
+    "id": "4d71e0d1affa63d575585c56132d3ef0",
+    "title": "Dyson Supersonic Saç Kurutma Makinesi Nikel/Gümüş",
+    "description": "Dyson Supersonic Saç Kurutma Makinesi Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dolaşmayı önleyen Motorbar temizleme başlığı. Otomatik emiş gücü ayarı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 16000,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "Otomatik emiş gücü ayarı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-05-20T06:52:31.284Z"
+  },
+  {
+    "id": "3a69ccefaf894efa9a6a1145bbbbbeeb",
+    "title": "Dyson V12 Detect Slim Altın",
+    "description": "Dyson V12 Detect Slim Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dolaşmayı önleyen Motorbar temizleme başlığı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 13500,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-05-17T10:02:08.578Z"
+  },
+  {
+    "id": "fb78919bc2bbc85dc0758c60155da427",
+    "title": "AirPods Pro (2. Nesil) Gümüş",
+    "description": "AirPods Pro (2. Nesil) Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. MagSafe Şarj Kutusu. Sohbet Farkındalığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 6900,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "MagSafe Şarj Kutusu",
+      "Sohbet Farkındalığı"
+    ],
+    "createdAt": "2026-05-16T22:55:30.115Z"
+  },
+  {
+    "id": "6eb3e3a75e43b16e2b4c63adccbaf3bd",
+    "title": "Dyson V8 Absolute Prusya Mavisi/Bakır",
+    "description": "Dyson V8 Absolute Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 17200,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-05-16T07:31:10.541Z"
+  },
+  {
+    "id": "75c71491a0e35c4e8ecf0cf869a280d2",
+    "title": "iPad 10. Nesil 512GB - Gece Yarısı",
+    "description": "iPad 10. Nesil 512GB - Gece Yarısı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Touch ID veya Face ID. M serisi Apple Silicon çip. Magic Keyboard desteği. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 19900,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Touch ID veya Face ID",
+      "M serisi Apple Silicon çip",
+      "Magic Keyboard desteği"
+    ],
+    "createdAt": "2026-05-14T11:24:13.997Z"
+  },
+  {
+    "id": "322e9c7fa0152d61e79bc7f04c4f4ed5",
+    "title": "AirPods Max Gökyüzü Mavi",
+    "description": "AirPods Max Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. MagSafe Şarj Kutusu. Tere ve suya dayanıklı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 24500,
+    "imageUrl": "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Şeffaf mod",
+      "MagSafe Şarj Kutusu",
+      "Tere ve suya dayanıklı"
+    ],
+    "createdAt": "2026-05-13T03:47:44.651Z"
+  },
+  {
+    "id": "a7ba4df086f6fe7252bccbba66358668",
+    "title": "iPhone 15 Pro 256GB - Uzay Siyahı",
+    "description": "iPhone 15 Pro 256GB - Uzay Siyahı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Gelişmiş çift kamera sistemi. Dynamic Island. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 43400,
+    "imageUrl": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Gelişmiş çift kamera sistemi",
+      "Dynamic Island"
+    ],
+    "createdAt": "2026-05-13T02:34:45.420Z"
+  },
+  {
+    "id": "89c79594eb030553b7b1733f29e6d4e0",
+    "title": "iPhone 14 Pro 256GB - Altın",
+    "description": "iPhone 14 Pro 256GB - Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Suya ve toza dayanıklı. Dynamic Island. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 36100,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Suya ve toza dayanıklı",
+      "Dynamic Island"
+    ],
+    "createdAt": "2026-05-10T13:27:56.796Z"
+  },
+  {
+    "id": "abcb2083e785982237484362b2589599",
+    "title": "iPad 10. Nesil 512GB - Gece Yarısı",
+    "description": "iPad 10. Nesil 512GB - Gece Yarısı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Magic Keyboard desteği. True Tone teknolojisi. Liquid Retina XDR ekran. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 21000,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Magic Keyboard desteği",
+      "True Tone teknolojisi",
+      "Liquid Retina XDR ekran"
+    ],
+    "createdAt": "2026-05-09T08:24:44.318Z"
+  },
+  {
+    "id": "9e75979100b645c9146de7a66c77a4e6",
+    "title": "AirPods (3. Nesil) Pembe",
+    "description": "AirPods (3. Nesil) Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Kişiselleştirilmiş Uzamsal Ses. Tere ve suya dayanıklı. Şeffaf mod. Adaptif Ses. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 6400,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Tere ve suya dayanıklı",
+      "Şeffaf mod",
+      "Adaptif Ses"
+    ],
+    "createdAt": "2026-05-06T17:28:37.277Z"
+  },
+  {
+    "id": "6daf4a00367ceb4448796e282cffbd6b",
+    "title": "MacBook Air 15 inç M2 256GB - Gümüş",
+    "description": "MacBook Air 15 inç M2 256GB - Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Magic Keyboard desteği. Tüm gün süren pil ömrü. Touch ID veya Face ID. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 48000,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Magic Keyboard desteği",
+      "Tüm gün süren pil ömrü",
+      "Touch ID veya Face ID"
+    ],
+    "createdAt": "2026-05-06T12:07:39.070Z"
+  },
+  {
+    "id": "c79a14815690c5740426f9a2032b251e",
+    "title": "AirPods Pro (2. Nesil) Uzay Gri",
+    "description": "AirPods Pro (2. Nesil) Uzay Gri model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Kişiselleştirilmiş Uzamsal Ses. Aktif Gürültü Engelleme. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 7600,
+    "imageUrl": "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Aktif Gürültü Engelleme"
+    ],
+    "createdAt": "2026-05-05T11:48:26.169Z"
+  },
+  {
+    "id": "a17e11b8ef04441e5e337a7cf2511c3f",
+    "title": "AirPods Pro (2. Nesil) Gökyüzü Mavi",
+    "description": "AirPods Pro (2. Nesil) Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. MagSafe Şarj Kutusu. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 8000,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Şeffaf mod",
+      "MagSafe Şarj Kutusu"
+    ],
+    "createdAt": "2026-05-03T22:36:04.496Z"
+  },
+  {
+    "id": "f3eed0ad959c811619b5e7ca0fa23ee1",
+    "title": "Dyson Supersonic Saç Kurutma Makinesi Altın",
+    "description": "Dyson Supersonic Saç Kurutma Makinesi Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 15500,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-05-02T06:41:07.921Z"
+  },
+  {
+    "id": "2ddfa2ab61872b4cf72b228ffd26ad19",
+    "title": "iPad Air 5. Nesil 256GB - Pembe",
+    "description": "iPad Air 5. Nesil 256GB - Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Liquid Retina XDR ekran. M serisi Apple Silicon çip. Magic Keyboard desteği. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 22000,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Liquid Retina XDR ekran",
+      "M serisi Apple Silicon çip",
+      "Magic Keyboard desteği"
+    ],
+    "createdAt": "2026-05-01T14:44:56.063Z"
+  },
+  {
+    "id": "91637b5e5b60f932732a3b62cb390c2c",
+    "title": "MacBook Air 15 inç M2 64GB - Pembe",
+    "description": "MacBook Air 15 inç M2 64GB - Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Tüm gün süren pil ömrü. Touch ID veya Face ID. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 52200,
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Tüm gün süren pil ömrü",
+      "Touch ID veya Face ID"
+    ],
+    "createdAt": "2026-04-29T18:44:17.954Z"
+  },
+  {
+    "id": "842384ecfdb767ad0a47d34a728adea5",
+    "title": "AirPods (3. Nesil) Uzay Gri",
+    "description": "AirPods (3. Nesil) Uzay Gri model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Sohbet Farkındalığı. MagSafe Şarj Kutusu. Tere ve suya dayanıklı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 2700,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Sohbet Farkındalığı",
+      "MagSafe Şarj Kutusu",
+      "Tere ve suya dayanıklı"
+    ],
+    "createdAt": "2026-04-29T06:57:42.363Z"
+  },
+  {
+    "id": "49e9bf2e8b2a1b1548b3afda071e09d2",
+    "title": "AirPods Max Beyaz",
+    "description": "AirPods Max Beyaz model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. Adaptif Ses. Sohbet Farkındalığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 27000,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "DRAFT",
+    "features": [
+      "Şeffaf mod",
+      "Adaptif Ses",
+      "Sohbet Farkındalığı"
+    ],
+    "createdAt": "2026-04-27T23:56:29.352Z"
+  },
+  {
+    "id": "7c5d54a1f3d03a777fcce6eba123016e",
+    "title": "AirPods Pro (2. Nesil) Beyaz",
+    "description": "AirPods Pro (2. Nesil) Beyaz model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. Kişiselleştirilmiş Uzamsal Ses. Sohbet Farkındalığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 8800,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Şeffaf mod",
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Sohbet Farkındalığı"
+    ],
+    "createdAt": "2026-04-27T21:05:43.451Z"
+  },
+  {
+    "id": "0a9286490358a79d2372c1b31eeb1bf6",
+    "title": "iPhone 17 Pro Max 128GB - Altın",
+    "description": "iPhone 17 Pro Max 128GB - Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Tüm gün süren pil ömrü. Ceramic Shield ön yüzey. Yüz Tanıma (Face ID). Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 86400,
+    "imageUrl": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Tüm gün süren pil ömrü",
+      "Ceramic Shield ön yüzey",
+      "Yüz Tanıma (Face ID)"
+    ],
+    "createdAt": "2026-04-26T17:07:17.439Z"
+  },
+  {
+    "id": "c00ff6490e7d3c8f849273e7017fccbf",
+    "title": "Dyson V15 Detect Absolute Seramik Pembe/Rose Gold",
+    "description": "Dyson V15 Detect Absolute Seramik Pembe/Rose Gold model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Piezo sensörü partikülleri sayar. Otomatik emiş gücü ayarı. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 27500,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Piezo sensörü partikülleri sayar",
+      "Otomatik emiş gücü ayarı",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-04-25T01:15:12.374Z"
+  },
+  {
+    "id": "87e198223efecb37b0ae1c57adbf3563",
+    "title": "iPad Air 5. Nesil 1TB - Yıldız Işığı",
+    "description": "iPad Air 5. Nesil 1TB - Yıldız Işığı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. M serisi Apple Silicon çip. Touch ID veya Face ID. Tüm gün süren pil ömrü. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 20500,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "M serisi Apple Silicon çip",
+      "Touch ID veya Face ID",
+      "Tüm gün süren pil ömrü"
+    ],
+    "createdAt": "2026-04-24T06:54:19.079Z"
+  },
+  {
+    "id": "d1d0c08ec276c294133418a097edc19c",
+    "title": "AirPods (3. Nesil) Gökyüzü Mavi",
+    "description": "AirPods (3. Nesil) Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Aktif Gürültü Engelleme. Kişiselleştirilmiş Uzamsal Ses. Şeffaf mod. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 6000,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Aktif Gürültü Engelleme",
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Şeffaf mod"
+    ],
+    "createdAt": "2026-04-24T05:35:08.930Z"
+  },
+  {
+    "id": "d9889f187678a9e84ad8ca719858b1ed",
+    "title": "AirPods (2. Nesil) Gümüş",
+    "description": "AirPods (2. Nesil) Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Adaptif Ses. MagSafe Şarj Kutusu. Kişiselleştirilmiş Uzamsal Ses. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 2700,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Adaptif Ses",
+      "MagSafe Şarj Kutusu",
+      "Kişiselleştirilmiş Uzamsal Ses"
+    ],
+    "createdAt": "2026-04-24T03:09:30.578Z"
+  },
+  {
+    "id": "9c493775d871723f3d6e7141a94bc3c6",
+    "title": "iPad Pro 12.9 inç M2 256GB - Pembe",
+    "description": "iPad Pro 12.9 inç M2 256GB - Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Tüm gün süren pil ömrü. True Tone teknolojisi. M serisi Apple Silicon çip. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 38500,
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Tüm gün süren pil ömrü",
+      "True Tone teknolojisi",
+      "M serisi Apple Silicon çip"
+    ],
+    "createdAt": "2026-04-20T14:26:49.487Z"
+  },
+  {
+    "id": "70616c0afb33b9d70918367f55998bd9",
+    "title": "iPhone 17 Pro 128GB - Kırmızı",
+    "description": "iPhone 17 Pro 128GB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım. Suya ve toza dayanıklı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 73900,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım",
+      "Suya ve toza dayanıklı"
+    ],
+    "createdAt": "2026-04-18T21:39:02.564Z"
+  },
+  {
+    "id": "540629805482183f664f2e033aae4f1e",
+    "title": "Dyson V12 Detect Slim Nikel/Gümüş",
+    "description": "Dyson V12 Detect Slim Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 17200,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-04-16T03:52:11.957Z"
+  },
+  {
+    "id": "c808647d71a16b9519c1c52f2068f59f",
+    "title": "MacBook Pro 16 inç M3 Max 64GB - Gece Yarısı",
+    "description": "MacBook Pro 16 inç M3 Max 64GB - Gece Yarısı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Liquid Retina XDR ekran. Magic Keyboard desteği. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 121200,
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Liquid Retina XDR ekran",
+      "Magic Keyboard desteği"
+    ],
+    "createdAt": "2026-04-13T10:55:25.291Z"
+  },
+  {
+    "id": "8e1a72152e936a1d1d960e96a225baca",
+    "title": "Dyson V8 Absolute Nikel/Gümüş",
+    "description": "Dyson V8 Absolute Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 16700,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-04-12T13:37:49.204Z"
+  },
+  {
+    "id": "fc771a4133f21c04b44d0fe5c299f125",
+    "title": "iPhone 17 1TB - Siyah Titanyum",
+    "description": "iPhone 17 1TB - Siyah Titanyum model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dynamic Island. Ceramic Shield ön yüzey. Suya ve toza dayanıklı. Yüz Tanıma (Face ID). Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 20100,
+    "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dynamic Island",
+      "Ceramic Shield ön yüzey",
+      "Suya ve toza dayanıklı",
+      "Yüz Tanıma (Face ID)"
+    ],
+    "createdAt": "2026-04-12T07:51:06.864Z"
+  },
+  {
+    "id": "b2dc29c4e14d4c1ec9c9936634e124c3",
+    "title": "AirPods (2. Nesil) Beyaz",
+    "description": "AirPods (2. Nesil) Beyaz model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Tere ve suya dayanıklı. Adaptif Ses. MagSafe Şarj Kutusu. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 4300,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Tere ve suya dayanıklı",
+      "Adaptif Ses",
+      "MagSafe Şarj Kutusu"
+    ],
+    "createdAt": "2026-04-10T07:12:08.764Z"
+  },
+  {
+    "id": "0937caccc6f0fa64098f14693abf29e5",
+    "title": "AirPods (2. Nesil) Pembe",
+    "description": "AirPods (2. Nesil) Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Aktif Gürültü Engelleme. Tere ve suya dayanıklı. Şeffaf mod. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 2700,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Aktif Gürültü Engelleme",
+      "Tere ve suya dayanıklı",
+      "Şeffaf mod"
+    ],
+    "createdAt": "2026-04-10T01:13:25.504Z"
+  },
+  {
+    "id": "e620dbee3d2bbfca76d24e15db8d8b4e",
+    "title": "iPhone 16 1TB - Yıldız Işığı",
+    "description": "iPhone 16 1TB - Yıldız Işığı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım. Yüz Tanıma (Face ID). Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 54300,
+    "imageUrl": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım",
+      "Yüz Tanıma (Face ID)"
+    ],
+    "createdAt": "2026-04-09T13:18:03.519Z"
+  },
+  {
+    "id": "f3a8f56e54ed61d383fa4d18e53b8224",
+    "title": "iPad 10. Nesil 256GB - Gümüş",
+    "description": "iPad 10. Nesil 256GB - Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Magic Keyboard desteği. Tüm gün süren pil ömrü. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 21100,
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Magic Keyboard desteği",
+      "Tüm gün süren pil ömrü"
+    ],
+    "createdAt": "2026-04-08T08:42:57.947Z"
+  },
+  {
+    "id": "dbaa2c1d35534d700b7621a6468e9a64",
+    "title": "Dyson V11 Prusya Mavisi/Bakır",
+    "description": "Dyson V11 Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Piezo sensörü partikülleri sayar. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 15100,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Piezo sensörü partikülleri sayar",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-04-07T01:42:10.324Z"
+  },
+  {
+    "id": "6835fb233c929a9493e4084dfd42e2dc",
+    "title": "AirPods (2. Nesil) Yeşil",
+    "description": "AirPods (2. Nesil) Yeşil model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. Adaptif Ses. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 5800,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Şeffaf mod",
+      "Adaptif Ses"
+    ],
+    "createdAt": "2026-04-06T22:17:04.076Z"
+  },
+  {
+    "id": "2ab9bee73d95ba38c6768330c2fceacb",
+    "title": "Dyson V12 Detect Slim Prusya Mavisi/Bakır",
+    "description": "Dyson V12 Detect Slim Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dolaşmayı önleyen Motorbar temizleme başlığı. HEPA filtrasyon sistemi. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 14800,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "HEPA filtrasyon sistemi",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-04-06T18:21:28.770Z"
+  },
+  {
+    "id": "8c071cb6d93e6216bd75fe538aa64627",
+    "title": "AirPods (3. Nesil) Uzay Gri",
+    "description": "AirPods (3. Nesil) Uzay Gri model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Kişiselleştirilmiş Uzamsal Ses. Aktif Gürültü Engelleme. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 7000,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Aktif Gürültü Engelleme"
+    ],
+    "createdAt": "2026-04-05T18:04:41.756Z"
+  },
+  {
+    "id": "8cfee6acde06339037eafafa54987179",
+    "title": "MacBook Air 15 inç M2 64GB - Mavi",
+    "description": "MacBook Air 15 inç M2 64GB - Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Magic Keyboard desteği. Liquid Retina XDR ekran. Tüm gün süren pil ömrü. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 50800,
+    "imageUrl": "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Magic Keyboard desteği",
+      "Liquid Retina XDR ekran",
+      "Tüm gün süren pil ömrü"
+    ],
+    "createdAt": "2026-04-04T20:23:11.208Z"
+  },
+  {
+    "id": "dcb84f607c97aff5e61582f9cb8bd004",
+    "title": "iPhone 17 256GB - Derin Mor",
+    "description": "iPhone 17 256GB - Derin Mor model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dynamic Island. Tüm gün süren pil ömrü. Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 22000,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dynamic Island",
+      "Tüm gün süren pil ömrü",
+      "Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım"
+    ],
+    "createdAt": "2026-04-03T18:46:01.355Z"
+  },
+  {
+    "id": "26ab8740e61e7b398eb68cec61d50490",
+    "title": "Dyson V8 Absolute Altın",
+    "description": "Dyson V8 Absolute Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Piezo sensörü partikülleri sayar. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 17100,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Piezo sensörü partikülleri sayar",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-04-03T03:05:37.200Z"
+  },
+  {
+    "id": "1e6b105f33b228c30690bcf252584a9f",
+    "title": "AirPods Pro (2. Nesil) Uzay Gri",
+    "description": "AirPods Pro (2. Nesil) Uzay Gri model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Adaptif Ses. Şeffaf mod. Kişiselleştirilmiş Uzamsal Ses. Sohbet Farkındalığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 6800,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Adaptif Ses",
+      "Şeffaf mod",
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Sohbet Farkındalığı"
+    ],
+    "createdAt": "2026-04-01T21:48:15.521Z"
+  },
+  {
+    "id": "4d07a0636961470d80b8b13f8cc19525",
+    "title": "Dyson V12 Detect Slim Prusya Mavisi/Bakır",
+    "description": "Dyson V12 Detect Slim Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Lazer teknolojisi görünmeyen tozları açığa çıkarır. HEPA filtrasyon sistemi. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 16200,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır",
+      "HEPA filtrasyon sistemi",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-04-01T10:09:55.533Z"
+  },
+  {
+    "id": "f50eff2752950f02546a698ace055d4e",
+    "title": "iPad Air 5. Nesil 1TB - Pembe",
+    "description": "iPad Air 5. Nesil 1TB - Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Liquid Retina XDR ekran. Tüm gün süren pil ömrü. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 19900,
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Liquid Retina XDR ekran",
+      "Tüm gün süren pil ömrü"
+    ],
+    "createdAt": "2026-03-30T00:02:24.293Z"
+  },
+  {
+    "id": "bea01b2e0cea34ee7648728f5f32f271",
+    "title": "MacBook Pro 16 inç M3 Max 1TB - Uzay Grisi",
+    "description": "MacBook Pro 16 inç M3 Max 1TB - Uzay Grisi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. True Tone teknolojisi. Touch ID veya Face ID. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 117600,
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "True Tone teknolojisi",
+      "Touch ID veya Face ID"
+    ],
+    "createdAt": "2026-03-27T05:30:27.755Z"
+  },
+  {
+    "id": "8474e89c6b31dbe0898fae695f631483",
+    "title": "iPhone 16 Pro Max 512GB - Altın",
+    "description": "iPhone 16 Pro Max 512GB - Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Yüz Tanıma (Face ID). ProMotion teknolojili Super Retina XDR ekran. Dynamic Island. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 56500,
+    "imageUrl": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Yüz Tanıma (Face ID)",
+      "ProMotion teknolojili Super Retina XDR ekran",
+      "Dynamic Island"
+    ],
+    "createdAt": "2026-03-26T10:00:51.132Z"
+  },
+  {
+    "id": "9f4e6ad5d0d764627763dd5cb4022390",
+    "title": "Dyson Airwrap Multi-styler Nikel/Gümüş",
+    "description": "Dyson Airwrap Multi-styler Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. HEPA filtrasyon sistemi. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 21700,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "HEPA filtrasyon sistemi",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-03-22T04:09:59.708Z"
+  },
+  {
+    "id": "3d21a188e66e64f5c34d105dd0254ba9",
+    "title": "AirPods Max Beyaz",
+    "description": "AirPods Max Beyaz model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Sohbet Farkındalığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 25800,
+    "imageUrl": "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Sohbet Farkındalığı"
+    ],
+    "createdAt": "2026-03-19T04:05:19.916Z"
+  },
+  {
+    "id": "06934e1002d7e14aebe96c71716e8595",
+    "title": "iPhone 11 1TB - Altın",
+    "description": "iPhone 11 1TB - Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Suya ve toza dayanıklı. Yüz Tanıma (Face ID). Ceramic Shield ön yüzey. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 20500,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Suya ve toza dayanıklı",
+      "Yüz Tanıma (Face ID)",
+      "Ceramic Shield ön yüzey"
+    ],
+    "createdAt": "2026-03-17T18:14:32.350Z"
+  },
+  {
+    "id": "78724ba96d12cfb6e30cf872cb10638a",
+    "title": "iPhone 17 Pro 1TB - Siyah Titanyum",
+    "description": "iPhone 17 Pro 1TB - Siyah Titanyum model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. ProMotion teknolojili Super Retina XDR ekran. Ceramic Shield ön yüzey. Gelişmiş çift kamera sistemi. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 74000,
+    "imageUrl": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "ProMotion teknolojili Super Retina XDR ekran",
+      "Ceramic Shield ön yüzey",
+      "Gelişmiş çift kamera sistemi"
+    ],
+    "createdAt": "2026-03-17T17:19:34.845Z"
+  },
+  {
+    "id": "057e2b01a2b459c53e11628ba028b8a1",
+    "title": "iPhone 14 Pro 128GB - Altın",
+    "description": "iPhone 14 Pro 128GB - Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Gelişmiş çift kamera sistemi. ProMotion teknolojili Super Retina XDR ekran. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 35000,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Gelişmiş çift kamera sistemi",
+      "ProMotion teknolojili Super Retina XDR ekran"
+    ],
+    "createdAt": "2026-03-13T10:35:04.345Z"
+  },
+  {
+    "id": "18e8eafcd86395a3fecbf95f0a27a5cf",
+    "title": "Dyson V8 Absolute Prusya Mavisi/Bakır",
+    "description": "Dyson V8 Absolute Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 13500,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-03-11T06:06:17.889Z"
+  },
+  {
+    "id": "a077542378cb8bfe902cc9a0c111918c",
+    "title": "Dyson V11 Nikel/Gümüş",
+    "description": "Dyson V11 Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 13000,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-03-09T04:44:52.944Z"
+  },
+  {
+    "id": "b03a09fd9edcfe8799543edc84b16c5e",
+    "title": "Dyson Gen5detect Altın",
+    "description": "Dyson Gen5detect Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Dolaşmayı önleyen Motorbar temizleme başlığı. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 33300,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-03-07T01:29:45.091Z"
+  },
+  {
+    "id": "1a4103f0fe325662700d194a3d42a473",
+    "title": "AirPods Max Gökyüzü Mavi",
+    "description": "AirPods Max Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Tere ve suya dayanıklı. Sohbet Farkındalığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 24100,
+    "imageUrl": "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Tere ve suya dayanıklı",
+      "Sohbet Farkındalığı"
+    ],
+    "createdAt": "2026-03-06T19:44:20.001Z"
+  },
+  {
+    "id": "581dca9c8d4810300a85d319b3dc9e58",
+    "title": "iPhone 17 Pro 256GB - Kırmızı",
+    "description": "iPhone 17 Pro 256GB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Ceramic Shield ön yüzey. Dynamic Island. Yüz Tanıma (Face ID). Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 73100,
+    "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Ceramic Shield ön yüzey",
+      "Dynamic Island",
+      "Yüz Tanıma (Face ID)"
+    ],
+    "createdAt": "2026-03-06T18:07:59.263Z"
+  },
+  {
+    "id": "b210b896019a3eb4718f927a8d2775e6",
+    "title": "AirPods (3. Nesil) Gökyüzü Mavi",
+    "description": "AirPods (3. Nesil) Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Aktif Gürültü Engelleme. Sohbet Farkındalığı. MagSafe Şarj Kutusu. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 5200,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Aktif Gürültü Engelleme",
+      "Sohbet Farkındalığı",
+      "MagSafe Şarj Kutusu"
+    ],
+    "createdAt": "2026-03-06T01:13:56.438Z"
+  },
+  {
+    "id": "44d3085f394e848fc7e6289b0e0f0b07",
+    "title": "Dyson Airwrap Multi-styler Nikel/Gümüş",
+    "description": "Dyson Airwrap Multi-styler Nikel/Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 21800,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-03-05T09:50:15.146Z"
+  },
+  {
+    "id": "8a487f570648651789392b548712b0e8",
+    "title": "AirPods (2. Nesil) Yeşil",
+    "description": "AirPods (2. Nesil) Yeşil model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Şeffaf mod. Tere ve suya dayanıklı. Adaptif Ses. MagSafe Şarj Kutusu. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 2800,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Şeffaf mod",
+      "Tere ve suya dayanıklı",
+      "Adaptif Ses",
+      "MagSafe Şarj Kutusu"
+    ],
+    "createdAt": "2026-03-05T08:36:27.542Z"
+  },
+  {
+    "id": "91c162f644089bf75dbd66ccbdaf394a",
+    "title": "MacBook Pro 16 inç M3 Max 64GB - Uzay Grisi",
+    "description": "MacBook Pro 16 inç M3 Max 64GB - Uzay Grisi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Touch ID veya Face ID. Liquid Retina XDR ekran. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 120100,
+    "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Touch ID veya Face ID",
+      "Liquid Retina XDR ekran"
+    ],
+    "createdAt": "2026-03-05T03:38:45.926Z"
+  },
+  {
+    "id": "9d3e4fa530673e718005ab341a4b7051",
+    "title": "iPhone 17 Pro 1TB - Kırmızı",
+    "description": "iPhone 17 Pro 1TB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. ProMotion teknolojili Super Retina XDR ekran. Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım. Gelişmiş çift kamera sistemi. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 76000,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "ProMotion teknolojili Super Retina XDR ekran",
+      "Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım",
+      "Gelişmiş çift kamera sistemi"
+    ],
+    "createdAt": "2026-03-02T04:07:59.370Z"
+  },
+  {
+    "id": "e4726288c6d8d262d1aafda424cf909f",
+    "title": "Dyson Airwrap Multi-styler Seramik Pembe/Rose Gold",
+    "description": "Dyson Airwrap Multi-styler Seramik Pembe/Rose Gold model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Otomatik emiş gücü ayarı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 18800,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Otomatik emiş gücü ayarı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-02-28T11:03:14.808Z"
+  },
+  {
+    "id": "84eb2029386c4ac9ae2f1e2a0dc24462",
+    "title": "Dyson V15 Detect Absolute Prusya Mavisi/Bakır",
+    "description": "Dyson V15 Detect Absolute Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dolaşmayı önleyen Motorbar temizleme başlığı. HEPA filtrasyon sistemi. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 29900,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "HEPA filtrasyon sistemi"
+    ],
+    "createdAt": "2026-02-28T08:14:02.254Z"
+  },
+  {
+    "id": "a86df105ccaba8708b1620331b3b4fb1",
+    "title": "AirPods Max Gümüş",
+    "description": "AirPods Max Gümüş model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Sohbet Farkındalığı. Adaptif Ses. Kişiselleştirilmiş Uzamsal Ses. Şeffaf mod. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 26800,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Sohbet Farkındalığı",
+      "Adaptif Ses",
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Şeffaf mod"
+    ],
+    "createdAt": "2026-02-25T00:13:38.590Z"
+  },
+  {
+    "id": "811a42ccb9d07e81f6741d6d90ca52cb",
+    "title": "AirPods Max Yeşil",
+    "description": "AirPods Max Yeşil model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Adaptif Ses. Aktif Gürültü Engelleme. Kişiselleştirilmiş Uzamsal Ses. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 24800,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "DRAFT",
+    "features": [
+      "Adaptif Ses",
+      "Aktif Gürültü Engelleme",
+      "Kişiselleştirilmiş Uzamsal Ses"
+    ],
+    "createdAt": "2026-02-22T22:52:33.449Z"
+  },
+  {
+    "id": "1d09a9c606c5218d6740a85404ce6a06",
+    "title": "Dyson V11 Seramik Pembe/Rose Gold",
+    "description": "Dyson V11 Seramik Pembe/Rose Gold model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 16400,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi"
+    ],
+    "createdAt": "2026-02-21T14:18:38.586Z"
+  },
+  {
+    "id": "dae49c1c5a8efe00bf98987754f3bd9d",
+    "title": "iPhone 16 256GB - Yıldız Işığı",
+    "description": "iPhone 16 256GB - Yıldız Işığı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dynamic Island. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 52700,
+    "imageUrl": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dynamic Island"
+    ],
+    "createdAt": "2026-02-20T11:13:25.702Z"
+  },
+  {
+    "id": "ee10d3dfa89a92d23b6179074e21e1b5",
+    "title": "AirPods (2. Nesil) Gökyüzü Mavi",
+    "description": "AirPods (2. Nesil) Gökyüzü Mavi model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Aktif Gürültü Engelleme. Adaptif Ses. Sohbet Farkındalığı. MagSafe Şarj Kutusu. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 7500,
+    "imageUrl": "https://images.unsplash.com/photo-1606220588913-b3aec8964566?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Aktif Gürültü Engelleme",
+      "Adaptif Ses",
+      "Sohbet Farkındalığı",
+      "MagSafe Şarj Kutusu"
+    ],
+    "createdAt": "2026-02-18T11:32:35.724Z"
+  },
+  {
+    "id": "12b0d58bbadb305f9fbf81c137022d6a",
+    "title": "Dyson V12 Detect Slim Altın",
+    "description": "Dyson V12 Detect Slim Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Dolaşmayı önleyen Motorbar temizleme başlığı. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 15300,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı"
+    ],
+    "createdAt": "2026-02-16T21:16:11.806Z"
+  },
+  {
+    "id": "3de0b1d00ae7353dcda0dbbf1c66c95b",
+    "title": "iPhone 17 128GB - Mavi Titanyum",
+    "description": "iPhone 17 128GB - Mavi Titanyum model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. ProMotion teknolojili Super Retina XDR ekran. Gelişmiş çift kamera sistemi. Ceramic Shield ön yüzey. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 19900,
+    "imageUrl": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "ProMotion teknolojili Super Retina XDR ekran",
+      "Gelişmiş çift kamera sistemi",
+      "Ceramic Shield ön yüzey"
+    ],
+    "createdAt": "2026-02-16T00:58:04.713Z"
+  },
+  {
+    "id": "6eca2d9b15faf08acf73443aa2a77bfd",
+    "title": "Dyson Gen5detect Altın",
+    "description": "Dyson Gen5detect Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Dolaşmayı önleyen Motorbar temizleme başlığı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 35900,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Dolaşmayı önleyen Motorbar temizleme başlığı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-02-15T16:26:55.034Z"
+  },
+  {
+    "id": "f24b06134e17f3fda7731b42439457cd",
+    "title": "Dyson Airwrap Multi-styler Prusya Mavisi/Bakır",
+    "description": "Dyson Airwrap Multi-styler Prusya Mavisi/Bakır model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. HEPA filtrasyon sistemi. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 19600,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "HEPA filtrasyon sistemi",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-02-15T07:22:03.592Z"
+  },
+  {
+    "id": "b85d0bdc7bac9afd1357287df97b282e",
+    "title": "iPhone 17 Pro 256GB - Kırmızı",
+    "description": "iPhone 17 Pro 256GB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Dynamic Island. Ceramic Shield ön yüzey. Gelişmiş çift kamera sistemi. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 75500,
+    "imageUrl": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Dynamic Island",
+      "Ceramic Shield ön yüzey",
+      "Gelişmiş çift kamera sistemi"
+    ],
+    "createdAt": "2026-02-13T17:13:59.210Z"
+  },
+  {
+    "id": "7a6f98bc0ec1cf47d5638a7ccbbf022d",
+    "title": "Dyson V11 Seramik Pembe/Rose Gold",
+    "description": "Dyson V11 Seramik Pembe/Rose Gold model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Piezo sensörü partikülleri sayar. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 14800,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "SOLD",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır",
+      "Piezo sensörü partikülleri sayar"
+    ],
+    "createdAt": "2026-02-13T15:48:04.704Z"
+  },
+  {
+    "id": "73f6b7c301003ed6fdd301dda9530e7a",
+    "title": "iPhone 15 Pro Max 1TB - Derin Mor",
+    "description": "iPhone 15 Pro Max 1TB - Derin Mor model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım. Yüz Tanıma (Face ID). Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 43600,
+    "imageUrl": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Havacılık ve uzay sınıfı titanyum veya alüminyum tasarım",
+      "Yüz Tanıma (Face ID)"
+    ],
+    "createdAt": "2026-02-12T15:44:53.392Z"
+  },
+  {
+    "id": "069b19f7e7675db72712894ec777a41f",
+    "title": "iPhone 14 Pro 128GB - Kırmızı",
+    "description": "iPhone 14 Pro 128GB - Kırmızı model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. ProMotion teknolojili Super Retina XDR ekran. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 33700,
+    "imageUrl": "https://images.unsplash.com/photo-1530319067432-f2a729c03db5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "ProMotion teknolojili Super Retina XDR ekran"
+    ],
+    "createdAt": "2026-02-10T15:12:30.793Z"
+  },
+  {
+    "id": "882bb723c329ac2995338cf134d8a374",
+    "title": "Dyson Airwrap Multi-styler Altın",
+    "description": "Dyson Airwrap Multi-styler Altın model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 18100,
+    "imageUrl": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-02-10T11:45:43.524Z"
+  },
+  {
+    "id": "61e7d14f5d0c703960ab571a5dc6911c",
+    "title": "AirPods Pro (2. Nesil) Pembe",
+    "description": "AirPods Pro (2. Nesil) Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Kişiselleştirilmiş Uzamsal Ses. Sohbet Farkındalığı. Şeffaf mod. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 8100,
+    "imageUrl": "https://images.unsplash.com/photo-1588423771073-b8903fbb85b5?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Kişiselleştirilmiş Uzamsal Ses",
+      "Sohbet Farkındalığı",
+      "Şeffaf mod"
+    ],
+    "createdAt": "2026-02-08T13:18:43.914Z"
+  },
+  {
+    "id": "f6b33f331ad168e15c601794865806e1",
+    "title": "Dyson V15 Detect Absolute Seramik Pembe/Rose Gold",
+    "description": "Dyson V15 Detect Absolute Seramik Pembe/Rose Gold model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Otomatik emiş gücü ayarı. Lazer teknolojisi görünmeyen tozları açığa çıkarır. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 28500,
+    "imageUrl": "https://images.unsplash.com/photo-1584283849187-b677a29e4bf3?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Otomatik emiş gücü ayarı",
+      "Lazer teknolojisi görünmeyen tozları açığa çıkarır"
+    ],
+    "createdAt": "2026-02-06T19:44:09.685Z"
+  },
+  {
+    "id": "62d392ee45e65bd479f280be1b04de5c",
+    "title": "iPad Pro 12.9 inç M2 256GB - Pembe",
+    "description": "iPad Pro 12.9 inç M2 256GB - Pembe model cihazımız, kusursuz tasarımı ve muazzam performansıyla sizi bekliyor. Liquid Retina XDR ekran. M serisi Apple Silicon çip. Magic Keyboard desteği. Sınırlı stoklarla hemen WhatsApp üzerinden sipariş verebilirsiniz.",
+    "price": 41800,
+    "imageUrl": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&q=80&w=800",
+    "status": "ACTIVE",
+    "features": [
+      "Liquid Retina XDR ekran",
+      "M serisi Apple Silicon çip",
+      "Magic Keyboard desteği"
+    ],
+    "createdAt": "2026-02-06T08:43:04.686Z"
   }
 ]
