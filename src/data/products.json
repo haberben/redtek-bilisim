@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "title": "iPhone 15 Pro Max 256GB - Doğal Titanyum",
+    "description": "Havacılık ve uzay sınıfı titanyum tasarım. A17 Pro çip ile inanılmaz oyun performansı. Daha da gelişmiş kamera sistemi ve yeni Eylem düğmesi.",
+    "features": ["Ekran: 6.7 inç Super Retina XDR", "Kamera: 48 MP Ana, 12 MP Ultra Geniş, 12 MP Telefoto", "İşlemci: A17 Pro", "Depolama: 256 GB"],
+    "price": 75000,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-15-pro-max-natural-titanium-select?wid=940&hei=1112&fmt=png-alpha",
+    "status": "ACTIVE",
+    "createdAt": "2024-05-10T10:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "title": "iPhone 14 128GB - Gece Yarısı",
+    "description": "Canlı 6.1 inç Super Retina XDR ekran. Gelişmiş kamera sistemiyle her ışıkta inanılmaz kareler. Trafik Kazası Algılama özelliği.",
+    "features": ["Ekran: 6.1 inç Super Retina XDR", "Kamera: 12 MP Ana, 12 MP Ultra Geniş", "İşlemci: A15 Bionic", "Depolama: 128 GB"],
+    "price": 45000,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-midnight-select-202209?wid=940&hei=1112&fmt=png-alpha",
+    "status": "ACTIVE",
+    "createdAt": "2024-05-11T12:30:00.000Z"
+  },
+  {
+    "id": "3",
+    "title": "AirPods Pro (2. Nesil)",
+    "description": "2 kata kadar daha fazla Aktif Gürültü Engelleme. Şeffaf mod. Etrafınızdaki seslere uyum sağlayan Adaptif Ses özelliği.",
+    "features": ["Çip: H2 kulaklık çipi", "Bağlantı: Bluetooth 5.3", "Pil: Tek şarjla 6 saate kadar dinleme süresi"],
+    "price": 8500,
+    "imageUrl": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MTJV3?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1694014871985",
+    "status": "ACTIVE",
+    "createdAt": "2024-05-12T15:20:00.000Z"
+  }
+]
