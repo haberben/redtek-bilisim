@@ -52,24 +52,6 @@ export default function RootLayout({
             {children}
           </main>
 
-          <footer className="bg-[var(--muted)] border-t border-[var(--border)] py-12 mt-20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
-              <div>
-                <h3 className="font-bold text-lg mb-4">REDTEK BİLİŞİM </h3>
-                <p className="text-sm text-[var(--muted-foreground)]">
-                  Sultangazi ve Avrupa Yakası'nın güvenilir teknoloji ve aksesuar mağazası.
-                </p>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-4">Hızlı Bağlantılar</h3>
-                <ul className="space-y-2 text-sm text-[var(--muted-foreground)]">
-                  <li><a href="/" className="hover:text-[var(--foreground)]">Ana Sayfa</a></li>
-                  <li><a href="/urunler" className="hover:text-[var(--foreground)]">Ürünler</a></li>
-                  <li><a href="/admin" className="hover:text-[var(--foreground)]">Yönetici Girişi</a></li>
-                </ul>
-              </div>
-              <div id="iletisim">
-                <h3 className="font-bold text-lg mb-4">İletişim</h3>
           <footer className="bg-[#f5f5f7] dark:bg-[#111111] border-t border-gray-300 dark:border-gray-800 text-[11px] sm:text-xs text-gray-500 dark:text-gray-400 py-6 mt-auto">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               {/* Fine Print */}
