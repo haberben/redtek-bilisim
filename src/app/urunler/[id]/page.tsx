@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { getProductById } from "@/lib/products";
 import { notFound } from "next/navigation";
+import { ProductGallery } from "@/components/product-gallery";
 
 export default async function ProductDetailsPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
@@ -26,24 +27,7 @@ export default async function ProductDetailsPage(props: { params: Promise<{ id: 
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20">
         {/* Image Gallery */}
-        <div className="animate-fade-in relative rounded-3xl overflow-hidden bg-[#f5f5f7] dark:bg-[#1d1d1f] aspect-square flex items-center justify-center p-8">
-          {product.status === 'SOLD' && (
-            <div className="absolute top-6 right-6 z-10 bg-red-600 text-white text-sm font-bold px-4 py-2 rounded-full uppercase tracking-wider">
-              Satıldı
-            </div>
-          )}
-          {product.imageUrl ? (
-            <Image 
-              src={product.imageUrl} 
-              alt={product.title} 
-              fill 
-              className={`object-contain p-8 ${product.status === 'SOLD' ? 'opacity-50' : ''}`} 
-              priority
-            />
-          ) : (
-            <div className="text-gray-400">Görsel Yok</div>
-          )}
-        </div>
+        <ProductGallery images={product.images || []} title={product.title} status={product.status} />
 
         {/* Product Info */}
         <div className="animate-fade-in delay-100 flex flex-col justify-center">

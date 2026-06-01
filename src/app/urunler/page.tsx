@@ -43,9 +43,9 @@ export default function ProductsPage() {
                     Satıldı
                   </div>
                 )}
-                {product.imageUrl ? (
+                {product.images && product.images.length > 0 ? (
                   <Image 
-                    src={product.imageUrl} 
+                    src={product.images[0]} 
                     alt={product.title} 
                     fill 
                     className={`object-contain p-6 transition-transform duration-500 ${product.status !== 'SOLD' ? 'group-hover:scale-105' : 'opacity-50'}`} 

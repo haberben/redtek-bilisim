@@ -7,7 +7,7 @@ export interface Product {
   description: string;
   features: string[];
   price: number | null;
-  imageUrl: string | null;
+  images: string[];
   status: 'ACTIVE' | 'DRAFT' | 'SOLD';
   createdAt: string;
 }
@@ -37,11 +37,12 @@ export function getProductById(id: string): Product | undefined {
   return products.find(p => p.id === id);
 }
 
-export function addProduct(product: Omit<Product, 'id' | 'createdAt'>): Product {
+export function addProduct(data: Omit<Product, 'id' | 'createdAt'>): Product {
   const products = getProducts();
   const newProduct: Product = {
-    ...product,
-    id: Date.now().toString(),
+    ...data,
+    images: data.images || [],
+    id: crypto.randomUUID(),
     createdAt: new Date().toISOString(),
   };
   products.push(newProduct);

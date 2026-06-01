@@ -57,9 +57,9 @@ export default function Home() {
             {products.map((product, index) => (
               <Link href={`/urunler/${product.id}`} key={product.id} className={`apple-card group block animate-fade-in delay-${(index + 2) * 100}`}>
                 <div className="relative h-80 w-full bg-[#f5f5f7] dark:bg-[#1d1d1f] p-8 flex items-center justify-center">
-                  {product.imageUrl ? (
+                  {product.images && product.images.length > 0 ? (
                     <Image 
-                      src={product.imageUrl} 
+                      src={product.images[0]} 
                       alt={product.title} 
                       fill 
                       className="object-contain p-8 group-hover:scale-105 transition-transform duration-500" 

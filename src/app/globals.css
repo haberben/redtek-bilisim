@@ -13,17 +13,15 @@
   --card: #ffffff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000000;
-    --foreground: #f5f5f7;
-    --accent: #2997ff;
-    --accent-hover: #147ce5;
-    --muted: #1d1d1f;
-    --muted-foreground: #86868b;
-    --border: #424245;
-    --card: #1c1c1e;
-  }
+.dark {
+  --background: #000000;
+  --foreground: #f5f5f7;
+  --accent: #2997ff;
+  --accent-hover: #147ce5;
+  --muted: #1d1d1f;
+  --muted-foreground: #86868b;
+  --border: #424245;
+  --card: #1c1c1e;
 }
 
 body {
@@ -40,10 +38,8 @@ body {
   -webkit-backdrop-filter: blur(20px);
 }
 
-@media (prefers-color-scheme: dark) {
-  .glass {
-    background: rgba(29, 29, 31, 0.7);
-  }
+.dark .glass {
+  background: rgba(29, 29, 31, 0.7);
 }
 
 .apple-button {
@@ -76,10 +72,8 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .apple-card:hover {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-  }
+.dark .apple-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 /* Animations */

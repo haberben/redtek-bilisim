@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,9 +18,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr">
+    <html lang="tr" suppressHydrationWarning>
       <body className={inter.className}>
-        <div className="min-h-screen flex flex-col">
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <div className="min-h-screen flex flex-col">
           <header className="sticky top-0 z-50 glass border-b border-[var(--border)]">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
               <a href="/" className="font-bold text-xl tracking-tight">REDTEK BİLİŞİM </a>
@@ -28,6 +31,7 @@ export default function RootLayout({
                 <a href="/#iletisim" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">İletişim</a>
               </nav>
               <div className="flex items-center space-x-4">
+                <ThemeToggle />
                 <a href="https://wa.me/905012023838" target="_blank" rel="noopener noreferrer" className="apple-button text-sm">
                   WhatsApp'tan Ulaşın
                 </a>
@@ -69,6 +73,7 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+        </ThemeProvider>
       </body>
     </html>
   );

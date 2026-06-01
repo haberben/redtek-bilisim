@@ -12,7 +12,7 @@ export default function AdminPage() {
   const [isEditing, setIsEditing] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [title, setTitle] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
+  const [images, setImages] = useState("");
   const [price, setPrice] = useState("");
   const [description, setDescription] = useState("");
   const [features, setFeatures] = useState("");
@@ -35,7 +35,7 @@ export default function AdminPage() {
     setIsEditing(false);
     setEditingId(null);
     setTitle("");
-    setImageUrl("");
+    setImages("");
     setPrice("");
     setDescription("");
     setFeatures("");
@@ -46,7 +46,7 @@ export default function AdminPage() {
     setIsEditing(true);
     setEditingId(product.id);
     setTitle(product.title);
-    setImageUrl(product.imageUrl || "");
+    setImages(product.images ? product.images.join("\n") : "");
     setPrice(product.price ? product.price.toString() : "");
     setDescription(product.description);
     setFeatures(product.features.join("\n"));
@@ -99,7 +99,7 @@ export default function AdminPage() {
     
     const productData = {
       title,
-      imageUrl: imageUrl || null,
+      images: images.split('\n').map(img => img.trim()).filter(img => img !== ''),
       price: price ? parseFloat(price) : null,
       description,
       features: features.split('\n').filter(f => f.trim() !== ''),
@@ -139,13 +139,12 @@ export default function AdminPage() {
             
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label className="block text-sm font-medium mb-1">Görsel URL (İsteğe Bağlı)</label>
-                <input 
-                  type="text" 
-                  value={imageUrl} 
-                  onChange={e => setImageUrl(e.target.value)}
-                  className="w-full p-2.5 rounded-lg border border-[var(--border)] bg-transparent focus:outline-none focus:ring-2 focus:ring-[var(--accent)]"
-                  placeholder="https://..."
+                <label className="block text-sm font-medium mb-1">Görsel URL'leri (Her satıra bir link)</label>
+                <textarea 
+                  value={images} 
+                  onChange={e => setImages(e.target.value)}
+                  className="w-full p-2.5 rounded-lg border border-[var(--border)] bg-transparent focus:outline-none focus:ring-2 focus:ring-[var(--accent)] h-24"
+                  placeholder="https://gorsel1.jpg&#10;https://gorsel2.jpg"
                 />
               </div>
 
@@ -258,8 +257,8 @@ export default function AdminPage() {
                 {products.map(product => (
                   <div key={product.id} className="p-6 flex flex-col sm:flex-row gap-6 hover:bg-[var(--muted)]/50 transition-colors">
                     <div className="w-24 h-24 bg-[var(--background)] rounded-xl border border-[var(--border)] flex items-center justify-center flex-shrink-0 overflow-hidden relative">
-                      {product.imageUrl ? (
-                        <Image src={product.imageUrl} alt={product.title} fill className="object-contain p-2" />
+                      {product.images && product.images.length > 0 ? (
+                        <Image src={product.images[0]} alt={product.title} fill className="object-contain p-2" />
                       ) : (
                         <span className="text-xs text-gray-400">Görsel Yok</span>
                       )}
