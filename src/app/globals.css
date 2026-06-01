@@ -3,7 +3,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #fbfbfd;
   --foreground: #1d1d1f;
   --accent: #0066cc;
   --accent-hover: #0077ed;
@@ -25,11 +25,12 @@
 }
 
 body {
+  background-color: var(--background);
   color: var(--foreground);
-  background: var(--background);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.015em;
 }
 
 .glass {
@@ -82,10 +83,34 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 .animate-fade-in {
   animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  opacity: 0;
+}
+
+.animate-slide-down {
+  animation: slideDown 0.5s ease-out forwards;
 }
 
 .delay-100 { animation-delay: 100ms; }
 .delay-200 { animation-delay: 200ms; }
 .delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+
+/* Premium Utilities */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, var(--foreground), var(--muted-foreground));
+}
+
+.dark .text-gradient {
+  background-image: linear-gradient(90deg, #fff, #86868b);
+}

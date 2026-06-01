@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { MobileMenu } from "@/components/mobile-menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,12 +34,13 @@ export default function RootLayout({
                 <a href="/urunler" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">Tüm Ürünler</a>
                 <a href="/#iletisim" className="text-sm font-medium hover:text-[var(--accent)] transition-colors">İletişim</a>
               </nav>
-              <div className="flex items-center space-x-4">
+              <div className="hidden md:flex items-center space-x-4">
                 <ThemeToggle />
-                <a href="https://wa.me/905012023838" target="_blank" rel="noopener noreferrer" className="apple-button text-sm">
+                <a href="https://wa.me/905012023838" target="_blank" rel="noopener noreferrer" className="apple-button text-sm px-4 py-2">
                   WhatsApp'tan Ulaşın
                 </a>
               </div>
+              <MobileMenu />
             </div>
           </header>
           
