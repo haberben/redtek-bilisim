@@ -36,6 +36,7 @@ export default function RootLayout({
                 <a href="/urunler?kategori=iPhone" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPhone</a>
                 <a href="/urunler?kategori=Watch" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Watch</a>
                 <a href="/urunler?kategori=AirPods" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">AirPods</a>
+                <a href="/urunler?kategori=Dyson" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Dyson</a>
                 <a href="/urunler?kategori=Aksesuarlar" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Aksesuarlar</a>
               </nav>
               <div className="hidden md:flex items-center space-x-4">

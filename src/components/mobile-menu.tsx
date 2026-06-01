@@ -54,6 +54,7 @@ export function MobileMenu() {
             <Link href="/urunler?kategori=iPhone" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-300">iPhone</Link>
             <Link href="/urunler?kategori=Watch" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-400">Watch</Link>
             <Link href="/urunler?kategori=AirPods" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-500">AirPods</Link>
+            <Link href="/urunler?kategori=Dyson" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '550ms' }}>Dyson</Link>
             <Link href="/urunler?kategori=Aksesuarlar" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '600ms' }}>Aksesuarlar</Link>
           </nav>
 
