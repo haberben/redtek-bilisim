@@ -3,7 +3,8 @@ import Link from "next/link";
 import { getProductById } from "@/lib/products";
 import { notFound } from "next/navigation";
 
-export default function ProductDetailsPage({ params }: { params: { id: string } }) {
+export default async function ProductDetailsPage(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const product = getProductById(params.id);
 
   if (!product) {
