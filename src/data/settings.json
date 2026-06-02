@@ -1,0 +1,13 @@
+{
+  "whatsappNumber": "+90 552 546 75 04",
+  "categories": [
+    { "id": "mac", "name": "Mac" },
+    { "id": "ipad", "name": "iPad" },
+    { "id": "iphone", "name": "iPhone" },
+    { "id": "watch", "name": "Watch" },
+    { "id": "airpods", "name": "AirPods" },
+    { "id": "dyson", "name": "Dyson" },
+    { "id": "aksesuarlar", "name": "Aksesuarlar" }
+  ],
+  "featuredProducts": []
+}

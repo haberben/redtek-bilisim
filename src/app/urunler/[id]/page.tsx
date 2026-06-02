@@ -4,6 +4,7 @@ import { getProductById, getProducts } from "@/lib/products";
 import { notFound } from "next/navigation";
 import { ProductGallery } from "@/components/product-gallery";
 import { ProductCard } from "@/components/product-card";
+import { getSettings } from "@/lib/settings";
 
 export default async function ProductDetailsPage(props: { params: Promise<{ id: string }> }) {
   const params = await props.params;
@@ -21,9 +22,11 @@ export default async function ProductDetailsPage(props: { params: Promise<{ id: 
     .slice(0, 3);
 
   // Pre-fill WhatsApp message
+  const settings = getSettings();
+  const rawNumber = settings.whatsappNumber.replace(/[^0-9]/g, '');
   const siteUrl = "https://redtekbilisim.com"; // Replace with actual domain later
   const message = `Merhaba,\n\nSitenizdeki şu ürün hakkında bilgi almak/sipariş vermek istiyorum:\n\nÜrün: ${product.title}\nLink: ${siteUrl}/urunler/${product.id}`;
-  const whatsappUrl = `https://wa.me/905012023838?text=${encodeURIComponent(message)}`;
+  const whatsappUrl = `https://wa.me/${rawNumber}?text=${encodeURIComponent(message)}`;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">

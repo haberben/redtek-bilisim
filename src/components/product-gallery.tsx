@@ -22,33 +22,46 @@ export function ProductGallery({ images, title, status }: { images: string[], ti
             Satıldı
           </div>
         )}
-        <Image 
-          src={images[currentIndex]} 
-          alt={`${title} - Görsel ${currentIndex + 1}`} 
-          fill 
-          className={`object-contain p-8 ${status === 'SOLD' ? 'opacity-50' : ''}`} 
-          priority
-        />
+        {(images[currentIndex]?.endsWith('.mp4') || images[currentIndex]?.endsWith('.webm')) ? (
+          <video 
+            src={images[currentIndex]} 
+            className={`object-cover w-full h-full rounded-2xl ${status === 'SOLD' ? 'opacity-50' : ''}`} 
+            autoPlay 
+            loop 
+            muted 
+            playsInline 
+          />
+        ) : (
+          <Image 
+            src={images[currentIndex]} 
+            alt={`${title} - Görsel ${currentIndex + 1}`} 
+            fill 
+            className={`object-contain p-8 ${status === 'SOLD' ? 'opacity-50' : ''}`} 
+            priority
+          />
+        )}
       </div>
 
       {images.length > 1 && (
         <div className="flex gap-4 overflow-x-auto pb-2 px-2 snap-x">
-          {images.map((img, i) => (
-            <button
-              key={i}
-              onClick={() => setCurrentIndex(i)}
-              className={`relative h-20 w-20 flex-shrink-0 rounded-xl overflow-hidden bg-[#f5f5f7] dark:bg-[#1d1d1f] border-2 transition-all snap-center ${
-                currentIndex === i ? 'border-[var(--accent)] opacity-100' : 'border-transparent opacity-60 hover:opacity-100'
-              }`}
-            >
-              <Image 
-                src={img} 
-                alt={`Thumbnail ${i + 1}`} 
-                fill 
-                className="object-contain p-2" 
-              />
-            </button>
-          ))}
+          {images.map((img, i) => {
+            const isVideo = img.endsWith('.mp4') || img.endsWith('.webm');
+            return (
+              <button
+                key={i}
+                onClick={() => setCurrentIndex(i)}
+                className={`relative h-20 w-20 flex-shrink-0 rounded-xl overflow-hidden bg-[#f5f5f7] dark:bg-[#1d1d1f] border-2 transition-all snap-center ${
+                  currentIndex === i ? 'border-[var(--accent)] opacity-100' : 'border-transparent opacity-60 hover:opacity-100'
+                }`}
+              >
+                {isVideo ? (
+                  <video src={img} className="object-cover w-full h-full" muted playsInline />
+                ) : (
+                  <Image src={img} alt={`Thumbnail ${i + 1}`} fill className="object-contain p-2" />
+                )}
+              </button>
+            );
+          })}
         </div>
       )}
     </div>

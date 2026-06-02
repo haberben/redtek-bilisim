@@ -6,7 +6,7 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { ThemeToggle } from "./theme-toggle";
 
-export function MobileMenu() {
+export function MobileMenu({ categories, whatsappNumber }: { categories: any[], whatsappNumber: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -59,13 +59,17 @@ export function MobileMenu() {
 
           <div className="flex-1 px-6 py-8 flex flex-col gap-6 overflow-y-auto">
             <nav className="flex flex-col gap-6 text-2xl font-bold tracking-tight">
-              <Link href="/urunler?kategori=Mac" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-100">Mac</Link>
-              <Link href="/urunler?kategori=iPad" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-200">iPad</Link>
-              <Link href="/urunler?kategori=iPhone" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-300">iPhone</Link>
-              <Link href="/urunler?kategori=Watch" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-400">Watch</Link>
-              <Link href="/urunler?kategori=AirPods" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down delay-500">AirPods</Link>
-              <Link href="/urunler?kategori=Dyson" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '550ms' }}>Dyson</Link>
-              <Link href="/urunler?kategori=Aksesuarlar" onClick={() => setIsOpen(false)} className="hover:text-[var(--accent)] transition-colors animate-slide-down" style={{ animationDelay: '600ms' }}>Aksesuarlar</Link>
+              {categories.map((cat, idx) => (
+                <Link 
+                  key={cat.id}
+                  href={`/urunler?kategori=${encodeURIComponent(cat.name)}`} 
+                  onClick={() => setIsOpen(false)} 
+                  className="hover:text-[var(--accent)] transition-colors animate-slide-down"
+                  style={{ animationDelay: `${(idx + 1) * 100}ms` }}
+                >
+                  {cat.name}
+                </Link>
+              ))}
             </nav>
 
             <div className="mt-auto pt-8 border-t border-[var(--border)] animate-slide-down" style={{ animationDelay: '700ms' }}>
@@ -74,7 +78,7 @@ export function MobileMenu() {
                 <ThemeToggle />
               </div>
               <a 
-                href="https://wa.me/905012023838" 
+                href={`https://wa.me/${whatsappNumber}`} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="apple-button w-full text-center text-lg py-4"

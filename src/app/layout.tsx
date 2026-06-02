@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { MobileMenu } from "@/components/mobile-menu";
+import { getSettings } from "@/lib/settings";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const settings = getSettings();
+  const rawNumber = settings.whatsappNumber.replace(/[^0-9]/g, '');
+
   return (
     <html lang="tr" suppressHydrationWarning>
       <body className={inter.className}>
@@ -34,21 +38,19 @@ export default function RootLayout({
                 </div>
               </a>
               <nav className="hidden lg:flex space-x-6 xl:space-x-8">
-                <a href="/urunler?kategori=Mac" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Mac</a>
-                <a href="/urunler?kategori=iPad" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPad</a>
-                <a href="/urunler?kategori=iPhone" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPhone</a>
-                <a href="/urunler?kategori=Watch" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Watch</a>
-                <a href="/urunler?kategori=AirPods" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">AirPods</a>
-                <a href="/urunler?kategori=Dyson" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Dyson</a>
-                <a href="/urunler?kategori=Aksesuarlar" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Aksesuarlar</a>
+                {settings.categories.map(cat => (
+                  <a key={cat.id} href={`/urunler?kategori=${encodeURIComponent(cat.name)}`} className="text-xs font-medium hover:text-[var(--accent)] transition-colors">
+                    {cat.name}
+                  </a>
+                ))}
               </nav>
               <div className="hidden lg:flex items-center space-x-4">
                 <ThemeToggle />
-                <a href="https://wa.me/905012023838" target="_blank" rel="noopener noreferrer" className="apple-button text-sm px-4 py-2">
+                <a href={`https://wa.me/${rawNumber}`} target="_blank" rel="noopener noreferrer" className="apple-button text-sm px-4 py-2">
                   WhatsApp'tan Ulaşın
                 </a>
               </div>
-              <MobileMenu />
+              <MobileMenu categories={settings.categories} whatsappNumber={rawNumber} />
             </div>
           </header>
           
@@ -71,12 +73,9 @@ export default function RootLayout({
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-gray-100 mb-3">Alışveriş ve İnceleme</h3>
                   <ul className="space-y-2">
-                    <li><a href="/urunler?kategori=Mac" className="hover:underline">Mac</a></li>
-                    <li><a href="/urunler?kategori=iPad" className="hover:underline">iPad</a></li>
-                    <li><a href="/urunler?kategori=iPhone" className="hover:underline">iPhone</a></li>
-                    <li><a href="/urunler?kategori=Watch" className="hover:underline">Watch</a></li>
-                    <li><a href="/urunler?kategori=AirPods" className="hover:underline">AirPods</a></li>
-                    <li><a href="/urunler?kategori=Aksesuarlar" className="hover:underline">Aksesuarlar</a></li>
+                    {settings.categories.map(cat => (
+                      <li key={cat.id}><a href={`/urunler?kategori=${encodeURIComponent(cat.name)}`} className="hover:underline">{cat.name}</a></li>
+                    ))}
                   </ul>
                 </div>
                 <div>

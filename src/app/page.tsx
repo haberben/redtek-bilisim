@@ -12,20 +12,28 @@ import {
 
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
+  const [featuredIds, setFeaturedIds] = useState<string[]>([]);
+  const [categories, setCategories] = useState<{name: string, id: string}[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/api/products')
-      .then(res => res.json())
-      .then(data => {
-        setProducts(data);
-        setLoading(false);
-      });
+    Promise.all([
+      fetch('/api/products').then(res => res.json()),
+      fetch('/api/settings').then(res => res.json())
+    ]).then(([productData, settingsData]) => {
+      setProducts(productData);
+      setFeaturedIds(settingsData.featuredProducts || []);
+      setCategories(settingsData.categories || []);
+      setLoading(false);
+    });
   }, []);
 
   const newProducts = products.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).slice(0, 10);
   const accessories = products.filter(p => p.category === 'Aksesuarlar').slice(0, 8);
-  const popularProducts = [...products].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+  
+  const featuredProducts = featuredIds
+    .map(id => products.find(p => p.id === id))
+    .filter(Boolean) as Product[];
 
   return (
     <div className="flex flex-col items-center bg-[var(--background)]">
@@ -40,24 +48,54 @@ export default function Home() {
       {/* Categories Bar */}
       <div className="w-full overflow-x-auto hide-scrollbar py-8 border-b border-[var(--border)]">
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 flex gap-8 md:gap-12 min-w-max">
-          {[
-            { name: "Mac", img: "https://pngimg.com/uploads/macbook/macbook_PNG8.png", href: "/urunler?kategori=Mac" },
-            { name: "iPhone", img: "https://pngimg.com/uploads/iphone_14/iphone_14_PNG18.png", href: "/urunler?kategori=iPhone" },
-            { name: "iPad", img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202405?wid=512&hei=512&fmt=png-alpha", href: "/urunler?kategori=iPad" },
-            { name: "Watch", img: "https://pngimg.com/uploads/apple_watch/apple_watch_PNG27.png", href: "/urunler?kategori=Watch" },
-            { name: "AirPods", img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=512&hei=512&fmt=png-alpha", href: "/urunler?kategori=AirPods" },
-            { name: "Dyson", img: "https://pngimg.com/uploads/vacuum_cleaner/vacuum_cleaner_PNG66.png", href: "/urunler?kategori=Dyson" },
-            { name: "Aksesuarlar", img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU7E2?wid=512&hei=512&fmt=png-alpha", href: "/urunler?kategori=Aksesuarlar" },
-          ].map((cat, i) => (
-            <Link href={cat.href} key={i} className="flex flex-col items-center gap-3 group">
-              <div className="w-16 h-12 relative group-hover:scale-110 transition-transform flex items-center justify-center">
-                <img src={cat.img} alt={cat.name} className="max-w-full max-h-full object-contain drop-shadow-sm" />
-              </div>
-              <span className="text-sm font-medium text-[var(--foreground)]">{cat.name}</span>
-            </Link>
-          ))}
+          {categories.map((cat, i) => {
+            const defaultImages: Record<string, string> = {
+              "mac": "https://pngimg.com/uploads/macbook/macbook_PNG8.png",
+              "iphone": "https://pngimg.com/uploads/iphone_14/iphone_14_PNG18.png",
+              "ipad": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202405?wid=512&hei=512&fmt=png-alpha",
+              "watch": "https://pngimg.com/uploads/apple_watch/apple_watch_PNG27.png",
+              "airpods": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=512&hei=512&fmt=png-alpha",
+              "dyson": "https://pngimg.com/uploads/vacuum_cleaner/vacuum_cleaner_PNG66.png",
+              "aksesuarlar": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU7E2?wid=512&hei=512&fmt=png-alpha",
+            };
+            const img = defaultImages[cat.name.toLowerCase()] || defaultImages["aksesuarlar"];
+            return (
+              <Link href={`/urunler?kategori=${encodeURIComponent(cat.name)}`} key={i} className="flex flex-col items-center gap-3 group">
+                <div className="w-16 h-12 relative group-hover:scale-110 transition-transform flex items-center justify-center">
+                  <img src={img} alt={cat.name} className="max-w-full max-h-full object-contain drop-shadow-sm" />
+                </div>
+                <span className="text-sm font-medium text-[var(--foreground)]">{cat.name}</span>
+              </Link>
+            )
+          })}
         </div>
       </div>
+
+      {/* Featured Products Carousel */}
+      {featuredProducts.length > 0 && (
+        <StoreCarousel title={<>Öne Çıkanlar. <span className="text-[var(--muted-foreground)]">Sizin için özel seçtiğimiz ürünler.</span></>}>
+          {featuredProducts.map((p, i) => (
+            <Link href={`/urunler/${p.id}`} key={p.id} className="snap-always flex-shrink-0 w-[300px] sm:w-[400px] bg-[var(--card)] border border-[var(--accent)] rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow group flex flex-col justify-between">
+              <div className="p-8 pb-4">
+                <span className="text-xs font-bold uppercase tracking-wide text-[var(--accent)] mb-2 block">VİTRİN</span>
+                <h3 className="text-2xl font-bold text-[var(--foreground)] line-clamp-2">{p.title}</h3>
+                <p className="text-[var(--muted-foreground)] font-medium mt-2">{p.price?.toLocaleString('tr-TR')} ₺'den başlayan fiyatlarla</p>
+              </div>
+              <div className="h-[250px] sm:h-[320px] w-full relative px-8 pb-8 mt-auto">
+                {p.images?.[0] ? (
+                  (p.images[0].endsWith('.mp4') || p.images[0].endsWith('.webm')) ? (
+                    <video src={p.images[0]} className="object-cover w-full h-full rounded-2xl group-hover:scale-105 transition-transform duration-500" autoPlay loop muted playsInline />
+                  ) : (
+                    <Image src={p.images[0]} alt={p.title} fill className="object-contain px-8 pb-8 group-hover:scale-105 transition-transform duration-500" />
+                  )
+                ) : (
+                  <div className="text-gray-400 w-full h-full flex items-center justify-center bg-[var(--muted)] rounded-2xl">Görsel Yok</div>
+                )}
+              </div>
+            </Link>
+          ))}
+        </StoreCarousel>
+      )}
 
       {/* New Products Carousel */}
       <StoreCarousel title={<>Son çıkanlar. <span className="text-[var(--muted-foreground)]">Yeni olanlara göz atın.</span></>}>
