@@ -29,8 +29,8 @@ export function MobileMenu() {
 
       {/* Full Screen Menu */}
       <div 
-        className={`fixed inset-0 z-[100] bg-[var(--background)] flex flex-col transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
-          isOpen ? "translate-y-0" : "-translate-y-full"
+        className={`fixed inset-0 z-[100] bg-[var(--background)] flex flex-col transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
+          isOpen ? "translate-y-0 opacity-100 pointer-events-auto" : "-translate-y-full opacity-0 pointer-events-none"
         }`}
       >
         <div className="px-4 h-16 flex items-center justify-between border-b border-[var(--border)]">
