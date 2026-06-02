@@ -43,11 +43,11 @@ export default function Home() {
           {[
             { name: "Mac", img: "https://pngimg.com/uploads/macbook/macbook_PNG8.png", href: "/urunler?kategori=Mac" },
             { name: "iPhone", img: "https://pngimg.com/uploads/iphone_14/iphone_14_PNG18.png", href: "/urunler?kategori=iPhone" },
-            { name: "iPad", img: "https://pngimg.com/uploads/ipad/ipad_PNG18.png", href: "/urunler?kategori=iPad" },
+            { name: "iPad", img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-model-select-gallery-2-202405?wid=512&hei=512&fmt=png-alpha", href: "/urunler?kategori=iPad" },
             { name: "Watch", img: "https://pngimg.com/uploads/apple_watch/apple_watch_PNG27.png", href: "/urunler?kategori=Watch" },
-            { name: "AirPods", img: "https://pngimg.com/uploads/airpods/airpods_PNG28.png", href: "/urunler?kategori=AirPods" },
+            { name: "AirPods", img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=512&hei=512&fmt=png-alpha", href: "/urunler?kategori=AirPods" },
             { name: "Dyson", img: "https://pngimg.com/uploads/vacuum_cleaner/vacuum_cleaner_PNG66.png", href: "/urunler?kategori=Dyson" },
-            { name: "Aksesuarlar", img: "https://pngimg.com/uploads/apple_charger/apple_charger_PNG8.png", href: "/urunler?kategori=Aksesuarlar" },
+            { name: "Aksesuarlar", img: "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MU7E2?wid=512&hei=512&fmt=png-alpha", href: "/urunler?kategori=Aksesuarlar" },
           ].map((cat, i) => (
             <Link href={cat.href} key={i} className="flex flex-col items-center gap-3 group">
               <div className="w-16 h-12 relative group-hover:scale-110 transition-transform flex items-center justify-center">
