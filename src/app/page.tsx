@@ -65,13 +65,13 @@ export default function Home() {
           <div className="w-full flex justify-center py-20"><div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[var(--foreground)]"></div></div>
         ) : (
           newProducts.map((p, i) => (
-            <Link href={`/urunler/${p.id}`} key={p.id} className="snap-always flex-shrink-0 w-[300px] sm:w-[400px] bg-[var(--card)] border border-[var(--border)] rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow group">
+            <Link href={`/urunler/${p.id}`} key={p.id} className="snap-always flex-shrink-0 w-[300px] sm:w-[400px] bg-[var(--card)] border border-[var(--border)] rounded-3xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow group flex flex-col justify-between">
               <div className="p-8 pb-4">
                 <span className="text-xs font-bold uppercase tracking-wide text-orange-500 mb-2 block">YENİ</span>
                 <h3 className="text-2xl font-bold text-[var(--foreground)] line-clamp-2">{p.title}</h3>
                 <p className="text-[var(--muted-foreground)] font-medium mt-2">{p.price?.toLocaleString('tr-TR')} ₺'den başlayan fiyatlarla</p>
               </div>
-              <div className="h-[250px] sm:h-[320px] w-full relative px-8 pb-8">
+              <div className="h-[250px] sm:h-[320px] w-full relative px-8 pb-8 mt-auto">
                 {p.images?.[0] ? (
                   <Image src={p.images[0]} alt={p.title} fill className="object-contain px-8 pb-8 group-hover:scale-105 transition-transform duration-500" />
                 ) : (
