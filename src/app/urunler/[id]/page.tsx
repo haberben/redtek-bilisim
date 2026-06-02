@@ -22,7 +22,7 @@ export default async function ProductDetailsPage(props: { params: Promise<{ id: 
 
   // Pre-fill WhatsApp message
   const siteUrl = "https://redtekbilisim.com"; // Replace with actual domain later
-  const message = `Merhaba, sitenizdeki "${product.title}" (${siteUrl}/urunler/${product.id}) ürünü hakkında bilgi almak istiyorum.`;
+  const message = `Merhaba,\n\nSitenizdeki şu ürün hakkında bilgi almak/sipariş vermek istiyorum:\n\nÜrün: ${product.title}\nLink: ${siteUrl}/urunler/${product.id}`;
   const whatsappUrl = `https://wa.me/905012023838?text=${encodeURIComponent(message)}`;
 
   return (
