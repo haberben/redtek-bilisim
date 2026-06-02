@@ -30,7 +30,7 @@ export default function RootLayout({
                 <span className="hidden sm:inline">REDTEK BİLİŞİM </span>
                 <span className="sm:hidden">REDTEK </span>
               </a>
-              <nav className="hidden md:flex space-x-6 lg:space-x-8">
+              <nav className="hidden lg:flex space-x-6 xl:space-x-8">
                 <a href="/urunler?kategori=Mac" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Mac</a>
                 <a href="/urunler?kategori=iPad" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPad</a>
                 <a href="/urunler?kategori=iPhone" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">iPhone</a>
@@ -39,7 +39,7 @@ export default function RootLayout({
                 <a href="/urunler?kategori=Dyson" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Dyson</a>
                 <a href="/urunler?kategori=Aksesuarlar" className="text-xs font-medium hover:text-[var(--accent)] transition-colors">Aksesuarlar</a>
               </nav>
-              <div className="hidden md:flex items-center space-x-4">
+              <div className="hidden lg:flex items-center space-x-4">
                 <ThemeToggle />
                 <a href="https://wa.me/905012023838" target="_blank" rel="noopener noreferrer" className="apple-button text-sm px-4 py-2">
                   WhatsApp'tan Ulaşın

@@ -18,7 +18,7 @@ export function MobileMenu() {
   }, [isOpen]);
 
   return (
-    <div className="md:hidden flex items-center">
+    <div className="lg:hidden flex items-center">
       <button 
         onClick={() => setIsOpen(true)}
         className="p-2 -mr-2 text-[var(--foreground)]"
