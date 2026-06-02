@@ -10,6 +10,7 @@ export interface SiteSettings {
   whatsappNumber: string;
   categories: Category[];
   featuredProducts: string[];
+  latestProductsIds: string[];
 }
 
 const settingsFilePath = path.join(process.cwd(), 'src', 'data', 'settings.json');
@@ -25,7 +26,8 @@ const defaultSettings: SiteSettings = {
     { id: "dyson", name: "Dyson" },
     { id: "aksesuarlar", name: "Aksesuarlar" }
   ],
-  featuredProducts: []
+  featuredProducts: [],
+  latestProductsIds: []
 };
 
 export function getSettings(): SiteSettings {

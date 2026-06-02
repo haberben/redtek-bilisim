@@ -13,6 +13,7 @@ import {
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
   const [featuredIds, setFeaturedIds] = useState<string[]>([]);
+  const [latestIds, setLatestIds] = useState<string[]>([]);
   const [categories, setCategories] = useState<{name: string, id: string}[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -23,12 +24,16 @@ export default function Home() {
     ]).then(([productData, settingsData]) => {
       setProducts(productData);
       setFeaturedIds(settingsData.featuredProducts || []);
+      setLatestIds(settingsData.latestProductsIds || []);
       setCategories(settingsData.categories || []);
       setLoading(false);
     });
   }, []);
 
-  const newProducts = products.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).slice(0, 10);
+  const newProducts = latestIds.length > 0
+    ? latestIds.map(id => products.find(p => p.id === id)).filter(Boolean) as Product[]
+    : products.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()).slice(0, 10);
+    
   const accessories = products.filter(p => p.category === 'Aksesuarlar').slice(0, 8);
   
   const featuredProducts = featuredIds

@@ -30,6 +30,7 @@ export default function AdminPage() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [newCatName, setNewCatName] = useState("");
   const [featuredProducts, setFeaturedProducts] = useState<string[]>([]);
+  const [latestProductsIds, setLatestProductsIds] = useState<string[]>([]);
   const [isSavingSettings, setIsSavingSettings] = useState(false);
 
   const fetchData = async () => {
@@ -48,6 +49,7 @@ export default function AdminPage() {
       setWhatsappNumber(setData.whatsappNumber || "");
       setCategories(setData.categories || []);
       setFeaturedProducts(setData.featuredProducts || []);
+      setLatestProductsIds(setData.latestProductsIds || []);
       
       if (!category && setData.categories && setData.categories.length > 0) {
         setCategory(setData.categories[0].name);
@@ -183,7 +185,8 @@ export default function AdminPage() {
       body: JSON.stringify({
         whatsappNumber,
         categories,
-        featuredProducts
+        featuredProducts,
+        latestProductsIds
       })
     });
     setIsSavingSettings(false);
@@ -206,6 +209,14 @@ export default function AdminPage() {
       setFeaturedProducts(featuredProducts.filter(id => id !== productId));
     } else {
       setFeaturedProducts([...featuredProducts, productId]);
+    }
+  };
+
+  const toggleLatest = (productId: string) => {
+    if (latestProductsIds.includes(productId)) {
+      setLatestProductsIds(latestProductsIds.filter(id => id !== productId));
+    } else {
+      setLatestProductsIds([...latestProductsIds, productId]);
     }
   };
 
@@ -502,7 +513,7 @@ export default function AdminPage() {
                 const isFeatured = featuredProducts.includes(product.id);
                 const orderIndex = featuredProducts.indexOf(product.id);
                 return (
-                  <label key={product.id} className={`flex items-center p-4 border rounded-xl cursor-pointer transition-colors ${isFeatured ? 'border-[var(--accent)] bg-[var(--accent)]/5' : 'border-[var(--border)] hover:bg-[var(--muted)]'}`}>
+                  <label key={`featured-${product.id}`} className={`flex items-center p-4 border rounded-xl cursor-pointer transition-colors ${isFeatured ? 'border-[var(--accent)] bg-[var(--accent)]/5' : 'border-[var(--border)] hover:bg-[var(--muted)]'}`}>
                     <input 
                       type="checkbox" 
                       checked={isFeatured}
@@ -515,6 +526,39 @@ export default function AdminPage() {
                     </div>
                     {isFeatured && (
                       <div className="bg-[var(--accent)] text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">
+                        {orderIndex + 1}
+                      </div>
+                    )}
+                  </label>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-6 md:p-8">
+            <h2 className="text-2xl font-bold mb-6 pb-4 border-b border-[var(--border)]">Son Çıkanlar</h2>
+            <p className="text-sm text-[var(--muted-foreground)] mb-6">
+              Ana sayfada "Son Çıkanlar" başlığı altında sergilenmesini istediğiniz ürünleri seçin. Eğer hiçbir ürün seçilmezse sistem en son eklenen ürünleri otomatik gösterir.
+            </p>
+
+            <div className="space-y-3">
+              {products.map(product => {
+                const isLatest = latestProductsIds.includes(product.id);
+                const orderIndex = latestProductsIds.indexOf(product.id);
+                return (
+                  <label key={`latest-${product.id}`} className={`flex items-center p-4 border rounded-xl cursor-pointer transition-colors ${isLatest ? 'border-orange-500 bg-orange-500/5' : 'border-[var(--border)] hover:bg-[var(--muted)]'}`}>
+                    <input 
+                      type="checkbox" 
+                      checked={isLatest}
+                      onChange={() => toggleLatest(product.id)}
+                      className="w-5 h-5 rounded border-gray-300 text-orange-500 focus:ring-orange-500"
+                    />
+                    <div className="ml-4 flex-1">
+                      <p className="font-bold">{product.title}</p>
+                      <p className="text-sm text-[var(--muted-foreground)]">{product.price} ₺ • {product.category}</p>
+                    </div>
+                    {isLatest && (
+                      <div className="bg-orange-500 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold">
                         {orderIndex + 1}
                       </div>
                     )}
