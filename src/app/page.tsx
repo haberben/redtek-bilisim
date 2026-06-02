@@ -33,7 +33,7 @@ export default function Home() {
       {/* Store Header */}
       <div className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 pb-12 flex flex-col md:flex-row justify-between items-start md:items-end">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold tracking-tight text-[var(--foreground)] mb-4 md:mb-0">
-          REDTEK BİLİŞİM. <span className="text-[var(--muted-foreground)]">Teknolojiye ulaşmanın en güvenilir yolu.</span>
+          REDTEK BİLİŞİM <span className="text-[var(--muted-foreground)]">Teknolojiye ulaşmanın en güvenilir yolu.</span>
         </h1>
       </div>
 
